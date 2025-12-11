@@ -69,6 +69,19 @@
         ]
       },
       {
+        "character_name": "Zenno Rob Roy",
+        "hint_names": [
+          "Straightaway Adept",
+          "Nimble Navigator",
+          "Pace Chaser Savvy",
+          "Late Surger Savvy"
+        ],
+        "path": [
+          "The Perfect Book for You",
+          "Tracen Academy"
+        ]
+      },
+      {
         "character_name": "Hishi Amazon",
         "hint_names": [
           "End Closer Savvy",
