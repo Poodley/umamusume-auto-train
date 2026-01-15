@@ -16,13 +16,21 @@ type Props = {
   addHintList: (newList: HintChoicesType) => void;
   deleteHintList: (hintName: HintChoicesType) => void;
 };
+function checkCondition(input: HintType): boolean {
+  console.log(input);
+  return true;
+}
+
 
 export default function HintList({ data, groupedChoices, hintChoicesConfig, addHintList, deleteHintList }: Props) {
   const [selected, setSelected] = useState<SupportCardType>({id: "",name: "",image_url: "",rarity: "",  type: ""});
 
   console.log(selected);
   console.log(groupedChoices);
-  const hintSelected = selected ? groupedChoices?.filter((val) => selected.name.toLowerCase().includes(val.character_name.toLowerCase()) && selected.type.toLowerCase() == val.type.toLowerCase() && selected.rarity.toLowerCase() == val.rarity.toLowerCase()) : [];
+  console.log(selected.type);
+  console.log(selected.name);
+  console.log(selected.rarity);
+  const hintSelected = selected ? groupedChoices?.filter((val) => checkCondition(val) && selected.name.toLowerCase().includes(val.character_name.toLowerCase()) && selected.type.toLowerCase() == val.type.toLowerCase() && selected.rarity.toLowerCase() == val.rarity.toLowerCase()) : [];
 
   return (
     <div>
