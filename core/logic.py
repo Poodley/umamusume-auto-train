@@ -1,7 +1,7 @@
 import core.state as state
 from core.state import check_current_year, check_energy_level
 from utils.log import info, warning, error, debug
-
+import Levenshtein
 
 support_hint_info = {}
 
@@ -29,7 +29,8 @@ def remove_hint(hint_str):
     hint_str = "Ramp Up"
   for support in support_hint_info:
     for card_hint, prio in support_hint_info[support]:
-      if card_hint in hint_str or hint_str in card_hint:
+      similarity = Levenshtein.ratio(hint_str.lower(), card_hint.lower())
+      if similarity >=0.8:
         info(f"Obtained a hint for {card_hint}, removing from list")
         support_hint_info[support].remove((card_hint, prio))
   for support in support_hint_info:
