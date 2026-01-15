@@ -4,8 +4,8 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Search } from "lucide-react";
+import type { SupportCardType } from "@/types/hintType";
 import { useMemo, useState } from "react";
-import type { SupportCardType } from "@/types/eventType";
 
 type Props = {
   data: SupportCardType[];
@@ -19,7 +19,7 @@ export default function EventDialog({ data, button, setSelected }: Props) {
 
   const filteredData = useMemo(() => {
     const val = search.toLowerCase().trim();
-    return data.filter((d) => d.name.toLowerCase().includes(val));
+    return data.filter((d) => d.character_name.toLowerCase().includes(val));
   }, [data, search]);
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -61,8 +61,8 @@ export default function EventDialog({ data, button, setSelected }: Props) {
                   }}
                 >
                   <CardContent className="p-3 flex flex-col items-center text-center">
-                    <img src={val.image_url} alt={val.name} className="w-16 h-16 object-contain mb-2 rounded" />
-                    <p className="text-xs font-medium leading-tight">{val.name}</p>
+                    <img src={val.image_url} alt={val.character_name} className="w-16 h-16 object-contain mb-2 rounded" />
+                    <p className="text-xs font-medium leading-tight">{val.character_name}</p>
                     {val.rarity && (
                       <Badge variant="secondary" className="mt-1 text-xs">
                         {val.rarity}

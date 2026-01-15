@@ -16,7 +16,7 @@ type Props = {
 };
 
 export default function SelectedHintList({ data, hintChoicesConfig, addHintList, deleteHintList, clearHintList }: Props) {
-  const allData = [...(data?.supportCardArraySchema?.supportCards ?? [])];
+  const allData = [...(data?.hintArraySchema?.hints ?? [])];
 
   const [search, setSearch] = useState<string>("");
   const [open, setOpen] = useState<boolean>(false);
@@ -85,11 +85,11 @@ export default function SelectedHintList({ data, hintChoicesConfig, addHintList,
               <p className="text-sm font-medium mb-2 text-muted-foreground">Filter</p>
               <div className="grid grid-cols-3 gap-3 p-1">
                 {allData
-                  ?.filter((item) => characterList.includes(item.name.toLowerCase()))
+                  ?.filter((item) => characterList.includes(item.character_name.toLowerCase()))
                   .map((item) => (
-                    <button key={item.name} onClick={() => setSearch(item.name)} className="flex flex-col items-center w-20">
-                      <img src={item.image_url} alt={item.name} className={`object-cover rounded-lg border ${item.name.toLowerCase() === search.toLowerCase() ? "ring-2" : "hover:ring-2"} hover:ring-primary transition`} />
-                      <p className="text-xs mt-1 text-muted-foreground truncate w-full text-center">{item.name}</p>
+                    <button key={item.character_name} onClick={() => setSearch(item.character_name)} className="flex flex-col items-center w-20">
+                      <img src={item.image_url} alt={item.character_name} className={`object-cover rounded-lg border ${item.character_name.toLowerCase() === search.toLowerCase() ? "ring-2" : "hover:ring-2"} hover:ring-primary transition`} />
+                      <p className="text-xs mt-1 text-muted-foreground truncate w-full text-center">{item.character_name}</p>
                     </button>
                   ))}
               </div>

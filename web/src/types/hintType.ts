@@ -3,25 +3,16 @@ import { z } from "zod";
 
 export type SupportCardType = {
   id: string;
-  name: string;
+  character_name: string;
   image_url: string;
   rarity: string;
   type: string;
-};
-
-export type HintType = {
-  character_name: string,
-  type: string,
-  rarity: string,
   hint_names: string[],
 }
 
 export type HintData = {
-  supportCardArraySchema: {
-    supportCards: SupportCardType[];
-  };
   hintArraySchema: {
-    hints: HintType[];
+    hints: SupportCardType[];
   }
 };
 

@@ -3,15 +3,13 @@ import { Button } from "../ui/button";
 import { Badge } from "../ui/badge";
 import { MessageCircleWarning, X } from "lucide-react";
 import { useState } from "react";
-import type { HintChoicesType, HintType } from "@/types/hintType";
-import type { HintData } from "@/types/hintType";
+import type { HintChoicesType, HintData, SupportCardType  } from "@/types/hintType";
 import MainHintList from "./_c/HintList/Main";
 import SidebarHintList from "./_c/HintList/Sidebar";
-import type { SupportCardType } from "@/types/eventType";
 
 type Props = {
   data: HintData | null;
-  groupedChoices: HintType[];
+  groupedChoices: SupportCardType[];
   hintChoicesConfig: HintChoicesType[];
   addHintList: (newList: HintChoicesType) => void;
   deleteHintList: (hintName: HintChoicesType) => void;
@@ -19,11 +17,11 @@ type Props = {
 
 
 export default function HintList({ data, groupedChoices, hintChoicesConfig, addHintList, deleteHintList }: Props) {
-  const [selected, setSelected] = useState<SupportCardType>({id: "",name: "",image_url: "",rarity: "",  type: ""});
+  const [selected, setSelected] = useState<SupportCardType>({id: "",character_name: "", image_url: "",rarity: "",  type: "", hint_names: []});
 
   console.log(selected);
   console.log(groupedChoices);
-  const hintSelected = selected ? groupedChoices?.filter((val) => selected.name.toLowerCase().includes(val.character_name.toLowerCase()) && selected.type.toLowerCase() == val.type.toLowerCase() && selected.rarity.toLowerCase() == val.rarity.toLowerCase()) : [];
+  const hintSelected = selected ? groupedChoices?.filter((val) => selected.character_name.toLowerCase().includes(val.character_name.toLowerCase()) && selected.type.toLowerCase() == val.type.toLowerCase() && selected.rarity.toLowerCase() == val.rarity.toLowerCase()) : [];
 
   return (
     <div>
@@ -46,8 +44,8 @@ export default function HintList({ data, groupedChoices, hintChoicesConfig, addH
 
               {selected && (
                 <Badge variant="secondary" className="flex items-center gap-1 text-sm">
-                  Filter: {selected.name}
-                  <button onClick={() => setSelected({id: "",name: "",image_url: "",rarity: "",  type: ""})} className="ml-1 hover:text-destructive">
+                  Filter: {selected.character_name}
+                  <button onClick={() => setSelected({id: "",character_name: "", image_url: "",rarity: "",  type: "", hint_names: []})} className="ml-1 hover:text-destructive">
                     <X className="w-3 h-3" />
                   </button>
                 </Badge>

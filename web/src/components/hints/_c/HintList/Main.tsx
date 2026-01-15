@@ -1,4 +1,4 @@
-import type { HintChoicesType, HintType } from "@/types/hintType";
+import type { HintChoicesType, SupportCardType } from "@/types/hintType";
 import { Badge } from "@/components/ui/badge";
 import HintCard from "../HintCard";
 import { Card, CardContent } from "@/components/ui/card";
@@ -6,10 +6,9 @@ import { Filter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useEffect, useMemo, useState } from "react";
-import type { SupportCardType } from "@/types/eventType";
 
 type Props = {
-  hintSelected: HintType[];
+  hintSelected: SupportCardType[];
   selected: SupportCardType;
   setSelected: React.Dispatch<React.SetStateAction<SupportCardType>>;
   hintChoicesConfig: HintChoicesType[];
@@ -37,7 +36,7 @@ export default function MainHintList({ hintSelected, selected, setSelected, hint
     <div className="flex-1 overflow-y-auto p-6 bg-background">
       <div className="space-y-6">
         <div className="flex items-center justify-between">
-          <h3 className="text-lg font-semibold">{selected ? `Hints for: ${selected}` : "All Hints"}</h3>
+          <h3 className="text-lg font-semibold">{selected ? `Hints for: ${selected.character_name}` : "All Hints"}</h3>
           <Badge variant="outline" className="text-xs">
             {filtered.reduce((count, innerList) => count + innerList.hint_names.length, 0)} hints found
           </Badge>
@@ -55,7 +54,7 @@ export default function MainHintList({ hintSelected, selected, setSelected, hint
                 {selected ? (
                   <>
                     <p className="font-medium mb-1">No hints found for this filter.</p>
-                    <Button variant="outline" size="sm" onClick={() => setSelected({id: "",name: "",image_url: "",rarity: "",  type: ""})}>
+                    <Button variant="outline" size="sm" onClick={() => setSelected({id: "",character_name: "",image_url: "",rarity: "",  type: "", hint_names: []})}>
                       Clear Filter
                     </Button>
                   </>

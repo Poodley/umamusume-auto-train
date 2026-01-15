@@ -31,7 +31,7 @@ export default function SidebarEventList({ selected, setSelected, data }: Props)
         <CardContent>
           <HintDialog
             button="Select Support Card"
-            data={data?.supportCardArraySchema.supportCards ?? []}
+            data={data?.hintArraySchema.hints ?? []}
             setSelected={(selectedCard) => {
               console.log(selectedCard);
               setSelected(selectedCard);
@@ -41,7 +41,7 @@ export default function SidebarEventList({ selected, setSelected, data }: Props)
       </Card>
 
       {selected && (
-        <Button variant="outline" onClick={() => setSelected({id: "",name: "",image_url: "",rarity: "",  type: ""})} className="w-full flex items-center gap-2">
+        <Button variant="outline" onClick={() => setSelected({id: "", character_name: "",image_url: "",rarity: "",  type: "", hint_names: []})} className="w-full flex items-center gap-2">
           <X className="w-4 h-4" />
           Clear Filter
         </Button>
