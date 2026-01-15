@@ -11,9 +11,7 @@ export type SupportCardType = {
 }
 
 export type HintData = {
-  hintArraySchema: {
     hints: SupportCardType[];
-  }
 };
 
 
