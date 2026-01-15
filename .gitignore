@@ -3,6 +3,8 @@ __pycache__
 config.json
 debug
 *test*
+get_hint_data*
+skill*
 
 # Logs
 logs

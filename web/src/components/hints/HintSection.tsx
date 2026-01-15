@@ -52,19 +52,15 @@ export default function HintSection({ config, updateConfig }: Props) {
 
   const groupedHints = useMemo(() => {
     const hints = data?.hintArraySchema?.hints ?? [];
-    console.log(hints);
     return Object.values(
       hints.reduce(
         (acc, hint) => {
-          console.log(hint.character_name);
-          if (!acc[hint.character_name]) {
-            acc[hint.character_name] = {
+            acc[hint.character_name + hint.type + hint.rarity] = {
               hint_names: hint.hint_names,
               character_name: hint.character_name,
               type: hint.type,
               rarity: hint.rarity,
-            };
-          }          
+            };    
           return acc;
         },
         
