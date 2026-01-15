@@ -17,7 +17,7 @@ export default function EventSection({ config, updateConfig }: Props) {
   const { use_optimal_event_choice, event_choices } = event;
   const getEventData = async () => {
     try {
-      const res = await fetch("/data/events.json");
+      const res = await fetch("https://raw.githubusercontent.com/Asinius/umamusume-auto-train/main/data/events.json");
       if (!res.ok) throw new Error("Failed to fetch events");
       return res.json();
     } catch (error) {

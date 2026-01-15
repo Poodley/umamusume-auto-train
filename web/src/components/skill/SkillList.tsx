@@ -30,9 +30,8 @@ export default function SkillList({
 
   const getSkillData = async () => {
     try {
-      const res = await fetch(
-        "/data/skills.json"
-      );
+      const res = await fetch("https://raw.githubusercontent.com/Asinius/umamusume-auto-train/main/data/skills.json");
+      console.log(res);
       if (!res.ok) throw new Error("Failed to fetch skills");
       return res.json();
     } catch (error) {
@@ -47,6 +46,7 @@ export default function SkillList({
   });
 
   const filtered = useMemo(() => {
+    console.log(data);
     return data?.filter(
       (skill) =>
         skill.name.toLowerCase().includes(search.toLowerCase()) ||
