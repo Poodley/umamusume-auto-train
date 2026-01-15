@@ -1,3 +1,4 @@
+
 import {
   Dialog,
   DialogContent,
@@ -7,7 +8,11 @@ import {
 } from "../ui/dialog";
 import { Button } from "../ui/button";
 import EventCard from "./_c/EventCard";
-import type { EventChoicesType, EventData, EventType } from "@/types/eventType";
+import type {
+  EventChoicesType,
+  EventData,
+  EventType,
+} from "@/types/eventType";
 import { Badge } from "../ui/badge";
 import { Search, Trash2 } from "lucide-react";
 import { Input } from "../ui/input";
@@ -60,11 +65,13 @@ export default function SelectedEventList({
   ];
 
   const selectedEvents = groupedChoices?.filter((event) =>
-    eventChoicesConfig.some((conf) => conf.event_name === event.event_name)
+    eventChoicesConfig.some((conf) => conf.event_name === event.event_name
+       && conf.character_name === event.character_name)
   );
 
   const filtered = useMemo(() => {
     const val = search.toLowerCase().toLowerCase();
+    console.log("Filtering with search:", val);
     return selectedEvents?.filter(
       (ev) =>
         ev.event_name.toLowerCase().includes(val) ||

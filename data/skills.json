@@ -1272,6 +1272,14 @@
     "description": "Slightly recover endurance after activating many skills late-race."
   },
   {
+    "name": "Head-On",
+    "description": "Slightly increase acceleration when positioned toward the front late-race. (Pace Chaser)"
+  },
+  {
+    "name": "All I've Got",
+    "description": "Slightly increase velocity when well-positioned on a straight in the last spurt. (Medium)"
+  },
+  {
     "name": "Sympathy",
     "description": "Moderately increase performance when many runners share a sympathetic heart."
   },
