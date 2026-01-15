@@ -62,7 +62,7 @@ export default function EventDialog({ data, button, setSelected }: Props) {
                 >
                   <CardContent className="p-3 flex flex-col items-center text-center">
                     <img src={val.image_url} alt={val.character_name} className="w-16 h-16 object-contain mb-2 rounded" />
-                    <p className="text-xs font-medium leading-tight">{val.type}</p>
+                    <p className="text-xs font-medium leading-tight">{`${val.character_name} (${val.type})`}</p>
                     {val.rarity && (
                       <Badge variant="secondary" className="mt-1 text-xs">
                         {val.rarity}

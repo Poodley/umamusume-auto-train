@@ -31,7 +31,7 @@ export default function SidebarEventList({ selected, setSelected, data }: Props)
         <CardContent>
           <HintDialog
             button="Select Support Card"
-            data={data?.hintArraySchema.hints ?? []}
+            data={data?.hints ?? []}
             setSelected={(selectedCard) => {
               console.log(selectedCard);
               setSelected(selectedCard);

@@ -21,7 +21,7 @@ export default function HintList({ data, groupedChoices, hintChoicesConfig, addH
 
   console.log(selected);
   console.log(groupedChoices);
-  const hintSelected = selected ? groupedChoices?.filter((val) => selected.character_name.toLowerCase().includes(val.character_name.toLowerCase()) && selected.type.toLowerCase() == val.type.toLowerCase() && selected.rarity.toLowerCase() == val.rarity.toLowerCase()) : [];
+  const hintSelected = selected ? groupedChoices?.filter((val) => val.id == selected.id) : [];
 
   return (
     <div>

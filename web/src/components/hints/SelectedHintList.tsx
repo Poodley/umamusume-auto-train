@@ -16,7 +16,7 @@ type Props = {
 };
 
 export default function SelectedHintList({ data, hintChoicesConfig, addHintList, deleteHintList, clearHintList }: Props) {
-  const allData = [...(data?.hintArraySchema?.hints ?? [])];
+  const allData = [...(data?.hints ?? [])];
 
   const [search, setSearch] = useState<string>("");
   const [open, setOpen] = useState<boolean>(false);

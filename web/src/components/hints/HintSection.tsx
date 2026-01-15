@@ -51,9 +51,7 @@ export default function HintSection({ config, updateConfig }: Props) {
     });
 
   const groupedHints = useMemo(() => {
-    console.log(data);
-    const hints = data?.hintArraySchema?.hints ?? [];
-    console.log(hints)
+    const hints = data?.hints ?? [];
     return Object.values(
       hints.reduce(
         (acc, hint) => {
@@ -82,9 +80,6 @@ export default function HintSection({ config, updateConfig }: Props) {
       )
     );
   }, [data]);
-
-  console.log("Grouped Hints");
-  console.log(groupedHints);
 
   return (
     <div className="bg-card p-6 rounded-xl shadow-lg border border-border/20">
