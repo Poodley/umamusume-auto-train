@@ -2,11 +2,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Filter, Sparkles, X } from "lucide-react";
 import HintDialog from "../HintDialog";
 import { Button } from "@/components/ui/button";
-import type { HintData } from "@/types/hintType";
+import type { HintData, SupportCardType } from "@/types/hintType";
 
 type Props = {
-  selected: string;
-  setSelected: React.Dispatch<React.SetStateAction<string>>;
+  selected: SupportCardType | null;
+  setSelected: React.Dispatch<React.SetStateAction<SupportCardType>>;
   data: HintData | null;
 };
 
@@ -33,6 +33,7 @@ export default function SidebarEventList({ selected, setSelected, data }: Props)
             button="Select Support Card"
             data={data?.supportCardArraySchema.supportCards ?? []}
             setSelected={(selectedCard) => {
+              console.log(selectedCard);
               setSelected(selectedCard);
             }}
           />
@@ -40,7 +41,7 @@ export default function SidebarEventList({ selected, setSelected, data }: Props)
       </Card>
 
       {selected && (
-        <Button variant="outline" onClick={() => setSelected("")} className="w-full flex items-center gap-2">
+        <Button variant="outline" onClick={() => setSelected({id: "",name: "",image_url: "",rarity: "",  type: ""})} className="w-full flex items-center gap-2">
           <X className="w-4 h-4" />
           Clear Filter
         </Button>

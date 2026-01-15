@@ -6,11 +6,12 @@ import { Filter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useEffect, useMemo, useState } from "react";
+import type { SupportCardType } from "@/types/eventType";
 
 type Props = {
   hintSelected: HintType[];
-  selected: string;
-  setSelected: React.Dispatch<React.SetStateAction<string>>;
+  selected: SupportCardType;
+  setSelected: React.Dispatch<React.SetStateAction<SupportCardType>>;
   hintChoicesConfig: HintChoicesType[];
   addHintList: (hint: HintChoicesType) => void;
   deleteHintList: (hint: HintChoicesType) => void;
@@ -54,7 +55,7 @@ export default function MainHintList({ hintSelected, selected, setSelected, hint
                 {selected ? (
                   <>
                     <p className="font-medium mb-1">No hints found for this filter.</p>
-                    <Button variant="outline" size="sm" onClick={() => setSelected("")}>
+                    <Button variant="outline" size="sm" onClick={() => setSelected({id: "",name: "",image_url: "",rarity: "",  type: ""})}>
                       Clear Filter
                     </Button>
                   </>

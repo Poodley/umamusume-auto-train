@@ -61,6 +61,8 @@ export default function HintSection({ config, updateConfig }: Props) {
             acc[hint.character_name] = {
               hint_names: hint.hint_names,
               character_name: hint.character_name,
+              type: hint.type,
+              rarity: hint.rarity,
             };
           }          
           return acc;
@@ -71,6 +73,8 @@ export default function HintSection({ config, updateConfig }: Props) {
           {
             character_name: string;
             hint_names: string[];
+            type: string;
+            rarity: string;
           }
         >
       )

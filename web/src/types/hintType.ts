@@ -11,6 +11,8 @@ export type SupportCardType = {
 
 export type HintType = {
   character_name: string,
+  type: string,
+  rarity: string,
   hint_names: string[],
 }
 

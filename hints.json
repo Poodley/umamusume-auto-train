@@ -1,0 +1,6921 @@
+[
+  {
+    "character_name": "Special Week",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Rainy Days ○",
+      "Late Surger Savvy ○",
+      "Hydrate",
+      "Homestretch Haste",
+      "Outer Swell",
+      "Steadfast"
+    ]
+  },
+  {
+    "character_name": "Silence Suzuka",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Front Runner Savvy ○",
+      "Rosy Outlook",
+      "Fast-Paced",
+      "Front Runner Straightaways ○",
+      "Front Runner Corners ○",
+      "Leader's Pride",
+      "Early Lead",
+      "Final Push",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Tokai Teio",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Soft Step",
+      "Nimble Navigator",
+      "Shrewd Step",
+      "Prudent Positioning",
+      "Go with the Flow",
+      "Thunderbolt Step"
+    ]
+  },
+  {
+    "character_name": "Maruzensky",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Productive Plan",
+      "Mile Corners ○",
+      "Shifting Gears",
+      "Early Lead",
+      "Acceleration"
+    ]
+  },
+  {
+    "character_name": "Oguri Cap",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Cloudy Days ○",
+      "Hydrate",
+      "Corner Adept ○",
+      "Homestretch Haste",
+      "Up-Tempo",
+      "Corner Acceleration ○",
+      "Nimble Navigator",
+      "Acceleration",
+      "Groundwork",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Gold Ship",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Sympathy",
+      "End Closer Savvy ○",
+      "Standing By",
+      "After-School Stroll",
+      "Inside Scoop",
+      "Pressure",
+      "Uma Stan",
+      "Straightaway Spurt",
+      "Highlander",
+      "Groundwork",
+      "I Can See Right Through You",
+      "Strategist",
+      "Intense Gaze",
+      "Smoke Screen"
+    ]
+  },
+  {
+    "character_name": "Vodka",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Tokyo Racecourse ○",
+      "Straightaway Recovery",
+      "Straightaway Adept",
+      "Homestretch Haste",
+      "Mile Straightaways ○",
+      "Medium Straightaways ○",
+      "Straightaway Acceleration",
+      "Slick Surge",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Taiki Shuttle",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Preferred Position",
+      "Prepared to Pass",
+      "Productive Plan",
+      "Mile Straightaways ○",
+      "Shifting Gears",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Grass Wonder",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Nakayama Racecourse ○",
+      "Competitive Spirit ○",
+      "Homestretch Haste",
+      "Position Pilfer",
+      "Slick Surge",
+      "Updrafters",
+      "Tether",
+      "Flustered Pace Chasers"
+    ]
+  },
+  {
+    "character_name": "Mejiro McQueen",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Spring Runner ○",
+      "Kyoto Racecourse ○",
+      "Stamina to Spare",
+      "Deep Breaths",
+      "Hydrate",
+      "Long Corners ○",
+      "Keeping the Lead",
+      "Disorient"
+    ]
+  },
+  {
+    "character_name": "El Condor Pasa",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Standard Distance ○",
+      "Sunny Days ○",
+      "Prepared to Pass",
+      "Up-Tempo",
+      "Medium Straightaways ○",
+      "Pace Chaser Straightaways ○",
+      "Hawkeye"
+    ]
+  },
+  {
+    "character_name": "TM Opera O",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Stamina to Spare",
+      "Up-Tempo",
+      "Long Corners ○",
+      "Pace Chaser Straightaways ○",
+      "Late Surger Straightaways ○",
+      "Tactical Tweak",
+      "Studious"
+    ]
+  },
+  {
+    "character_name": "Symboli Rudolf",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Preferred Position",
+      "Groundwork",
+      "Tether",
+      "Subdued Front Runners",
+      "Subdued Pace Chasers",
+      "Subdued Late Surgers",
+      "Subdued End Closers"
+    ]
+  },
+  {
+    "character_name": "Seiun Sky",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Long Shot ○",
+      "Inner Post Proficiency ○",
+      "Tail Held High",
+      "Hesitant Pace Chasers",
+      "Frenzied Late Surgers",
+      "Trick (Front)"
+    ]
+  },
+  {
+    "character_name": "Rice Shower",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Maverick ○",
+      "Kyoto Racecourse ○",
+      "Deep Breaths",
+      "Straight Descent",
+      "Highlander",
+      "Frenzied Pace Chasers",
+      "Subdued Pace Chasers",
+      "Flustered Pace Chasers",
+      "Disorient"
+    ]
+  },
+  {
+    "character_name": "Winning Ticket",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Cloudy Days ○",
+      "Position Pilfer",
+      "Outer Swell",
+      "Slick Surge"
+    ]
+  },
+  {
+    "character_name": "Gold City",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Sapporo Racecourse ○",
+      "Watchful Eye",
+      "Acceleration"
+    ]
+  },
+  {
+    "character_name": "Sakura Bakushin O",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Sprint Straightaways ○",
+      "Sprint Corners ○",
+      "Huge Lead",
+      "Sprinting Gear",
+      "Countermeasure",
+      "Intimidate",
+      "Frenzied Front Runners",
+      "Flustered Front Runners"
+    ]
+  },
+  {
+    "character_name": "Super Creek",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Corner Recovery ○",
+      "Ramp Up",
+      "Homestretch Haste",
+      "Hesitant Pace Chasers"
+    ]
+  },
+  {
+    "character_name": "Haru Urara",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": []
+  },
+  {},
+  {},
+  {
+    "character_name": "Daiwa Scarlet",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Competitive Spirit ○",
+      "Preferred Position",
+      "Rosy Outlook",
+      "Prepared to Pass",
+      "Up-Tempo",
+      "Shifting Gears"
+    ]
+  },
+  {
+    "character_name": "Hishi Amazon",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "End Closer Savvy ○",
+      "Stamina to Spare",
+      "End Closer Straightaways ○",
+      "Straightaway Spurt"
+    ]
+  },
+  {
+    "character_name": "Air Groove",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Pace Strategy",
+      "Up-Tempo",
+      "Medium Straightaways ○",
+      "Groundwork",
+      "Hesitant End Closers",
+      "Flustered End Closers"
+    ]
+  },
+  {
+    "character_name": "Agnes Digital",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Lay Low",
+      "Calm in a Crowd",
+      "Mile Straightaways ○",
+      "Medium Straightaways ○",
+      "Late Surger Straightaways ○",
+      "Opening Gambit"
+    ]
+  },
+  {
+    "character_name": "Tamamo Cross",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Rosy Outlook",
+      "Soft Step",
+      "Medium Corners ○",
+      "1,500,000 CC",
+      "Thunderbolt Step",
+      "Frenzied Late Surgers",
+      "Flustered Late Surgers"
+    ]
+  },
+  {
+    "character_name": "Fine Motion",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Right-Handed ○",
+      "Fall Runner ○",
+      "Outer Post Proficiency ○",
+      "Straightaway Acceleration",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Biwa Hayahide",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Outer Post Proficiency ○",
+      "Hanshin Racecourse ○",
+      "Wet Conditions ○",
+      "Cloudy Days ○",
+      "Frenzied End Closers"
+    ]
+  },
+  {
+    "character_name": "Mayano Top Gun",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Non-Standard Distance ○",
+      "Straightaway Recovery",
+      "Corner Adept ○",
+      "Straightaway Adept",
+      "Nimble Navigator",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Manhattan Cafe",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Rainy Days ○",
+      "Passing Pro",
+      "Long Straightaways ○",
+      "Highlander",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Mihono Bourbon",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Snowy Days ○",
+      "Front Runner Straightaways ○",
+      "Front Runner Corners ○",
+      "Early Lead"
+    ]
+  },
+  {
+    "character_name": "Mejiro Ryan",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Rainy Days ○",
+      "Up-Tempo",
+      "Medium Straightaways ○"
+    ]
+  },
+  {
+    "character_name": "Yukino Bijin",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Winter Runner ○",
+      "Nakayama Racecourse ○",
+      "Steadfast",
+      "Medium Corners ○"
+    ]
+  },
+  {
+    "character_name": "Ines Fujin",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Moxie",
+      "Steadfast",
+      "Slipstream",
+      "Playtime's Over!",
+      "Speed Eater"
+    ]
+  },
+  {
+    "character_name": "Agnes Tachyon",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Up-Tempo",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "Tether"
+    ]
+  },
+  {
+    "character_name": "Air Shakur",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Levelheaded",
+      "Pressure",
+      "Strategist"
+    ]
+  },
+  {
+    "character_name": "Eishin Flash",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Standard Distance ○",
+      "Late Surger Straightaways ○",
+      "Late Surger Corners ○",
+      "Straightaway Acceleration",
+      "Fighter"
+    ]
+  },
+  {
+    "character_name": "Smart Falcon",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Outer Post Proficiency ○",
+      "Oi Racecourse ○",
+      "Wet Conditions ○",
+      "Cloudy Days ○",
+      "Front Runner Savvy ○",
+      "Corner Recovery ○",
+      "Second Wind",
+      "Restart"
+    ]
+  },
+  {
+    "character_name": "Narita Taishin",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Lone Wolf",
+      "Lay Low",
+      "Calm in a Crowd",
+      "Standing By",
+      "Masterful Gambit",
+      "End Closer Corners ○",
+      "Intense Gaze"
+    ]
+  },
+  {
+    "character_name": "Nishino Flower",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Hanshin Racecourse ○",
+      "Standard Distance ○",
+      "Firm Conditions ○",
+      "Pace Chaser Corners ○",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Biko Pegasus",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Outer Post Proficiency ○",
+      "Wait-and-See",
+      "Gap Closer",
+      "Productive Plan",
+      "Updrafters",
+      "Meticulous Measures",
+      "Stop Right There!"
+    ]
+  },
+  {
+    "character_name": "Marvelous Sunday",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Straightaway Adept",
+      "Ramp Up",
+      "Tail Held High",
+      "Hesitant Front Runners",
+      "Hesitant Pace Chasers"
+    ]
+  },
+  {
+    "character_name": "Matikanefukukitaru",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Hakodate Racecourse ○",
+      "Lucky Seven",
+      "Calm in a Crowd",
+      "A Small Breather",
+      "Triple 7s",
+      "Late Surger Corners ○",
+      "Trick (Rear)"
+    ]
+  },
+  {
+    "character_name": "Meisho Doto",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Long Shot ○",
+      "Non-Standard Distance ○",
+      "Firm Conditions ○",
+      "Inner Post Proficiency ○",
+      "Shake It Out",
+      "Late Surger Straightaways ○",
+      "Hawkeye"
+    ]
+  },
+  {
+    "character_name": "Mejiro Dober",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Kyoto Racecourse ○",
+      "Sunny Days ○",
+      "Late Surger Savvy ○",
+      "Up-Tempo",
+      "Steadfast"
+    ]
+  },
+  {
+    "character_name": "Nice Nature",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Kokura Racecourse ○",
+      "Lay Low",
+      "A Small Breather",
+      "Corner Acceleration ○",
+      "Go with the Flow",
+      "Hesitant Late Surgers",
+      "Murmur",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "King Halo",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Outer Post Proficiency ○",
+      "Firm Conditions ○",
+      "Cloudy Days ○",
+      "Corner Recovery ○",
+      "Wait-and-See",
+      "Gap Closer"
+    ]
+  },
+  {
+    "character_name": "Fuji Kiseki",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Summer Runner ○",
+      "Cloudy Days ○",
+      "Mile Corners ○",
+      "Unyielding Spirit",
+      "Trick (Front)"
+    ]
+  },
+  {
+    "character_name": "Sweep Tosho",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "After-School Stroll",
+      "Slipstream",
+      "Prudent Positioning",
+      "I Can See Right Through You",
+      "Trick (Front)",
+      "Trick (Rear)",
+      "Murmur"
+    ]
+  },
+  {
+    "character_name": "Twin Turbo",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Competitive Spirit ○",
+      "Target in Sight ○",
+      "Moxie",
+      "Fast-Paced",
+      "Leader's Pride",
+      "Early Lead"
+    ]
+  },
+  {
+    "character_name": "Daitaku Helios",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Sympathy",
+      "Stamina to Spare",
+      "Ramp Up",
+      "Mile Corners ○",
+      "Shifting Gears",
+      "Slipstream",
+      "Speed Eater"
+    ]
+  },
+  {
+    "character_name": "Ikuno Dictus",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Lay Low",
+      "Calm in a Crowd",
+      "Hawkeye",
+      "Studious",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Mejiro Palmer",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Sympathy",
+      "Nakayama Racecourse ○",
+      "Hanshin Racecourse ○",
+      "Moxie",
+      "Fast-Paced",
+      "Early Lead",
+      "Flustered Pace Chasers"
+    ]
+  },
+  {
+    "character_name": "Kitasan Black",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Corner Recovery ○",
+      "Straightaway Recovery",
+      "Extra Tank",
+      "Corner Adept ○",
+      "Long Corners ○",
+      "Front Runner Straightaways ○",
+      "Dodging Danger",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Satono Diamond",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Sunny Days ○",
+      "A Small Breather",
+      "Medium Corners ○",
+      "Studious",
+      "Tether",
+      "Flustered Front Runners"
+    ]
+  },
+  {
+    "character_name": "Matikanetannhauser",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Lay Low",
+      "Pace Strategy",
+      "Deep Breaths",
+      "Steadfast",
+      "Fighter"
+    ]
+  },
+  {
+    "character_name": "Yaeno Muteki",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Ramp Up",
+      "Homestretch Haste",
+      "Prepared to Pass",
+      "Up-Tempo",
+      "Tail Held High"
+    ]
+  },
+  {
+    "character_name": "Zenno Rob Roy",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Late Surger Savvy ○",
+      "Straightaway Adept",
+      "Nimble Navigator",
+      "Shrewd Step",
+      "Prudent Positioning",
+      "Go with the Flow",
+      "Studious"
+    ]
+  },
+  {},
+  {
+    "character_name": "Seeking the Pearl",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Pace Strategy",
+      "Watchful Eye",
+      "Sprint Straightaways ○",
+      "Unyielding Spirit",
+      "Sprinting Gear"
+    ]
+  },
+  {
+    "character_name": "Sakura Chiyono O",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Steadfast",
+      "Shifting Gears",
+      "Medium Corners ○"
+    ]
+  },
+  {
+    "character_name": "Kawakami Princess",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Standard Distance ○",
+      "Preferred Position",
+      "Soft Step",
+      "Tactical Tweak"
+    ]
+  },
+  {
+    "character_name": "Hishi Akebono",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Sunny Days ○",
+      "Hydrate",
+      "Sprint Corners ○",
+      "Final Push",
+      "Countermeasure",
+      "Meticulous Measures"
+    ]
+  },
+  {
+    "character_name": "Bamboo Memory",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Target in Sight ○",
+      "Straightaway Adept",
+      "Gap Closer",
+      "Mile Straightaways ○",
+      "Late Surger Straightaways ○",
+      "Acceleration"
+    ]
+  },
+  {
+    "character_name": "Shinko Windy",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Competitive Spirit ○",
+      "Prepared to Pass",
+      "Hesitant Front Runners"
+    ]
+  },
+  {
+    "character_name": "Nakayama Festa",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Long Shot ○",
+      "Wet Conditions ○",
+      "Lucky Seven",
+      "Outer Swell",
+      "Steadfast",
+      "Late Surger Straightaways ○",
+      "All I've Got",
+      "Slick Surge",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Inari One",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Spring Runner ○",
+      "Winter Runner ○",
+      "Target in Sight ○",
+      "Familiar Ground",
+      "Ramp Up",
+      "Tail Held High",
+      "Forward, March!",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Mejiro Ardan",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Left-Handed ○",
+      "Pace Chaser Savvy ○",
+      "Preferred Position",
+      "Soft Step",
+      "Pace Chaser Corners ○"
+    ]
+  },
+  {
+    "character_name": "Tosen Jordan",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Long Shot ○",
+      "Stamina to Spare",
+      "Position Pilfer",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "Pace Chaser Straightaways ○"
+    ]
+  },
+  {
+    "character_name": "Sirius Symboli",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Lone Wolf",
+      "Wet Conditions ○",
+      "Prepared to Pass",
+      "Medium Corners ○"
+    ]
+  },
+  {
+    "character_name": "Narita Brian",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Right-Handed ○",
+      "Preferred Position",
+      "Hydrate",
+      "Outer Swell",
+      "Inside Scoop",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "Long Straightaways ○"
+    ]
+  },
+  {
+    "character_name": "Curren Chan",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Sprint Straightaways ○",
+      "Sprinting Gear",
+      "Meticulous Measures",
+      "Hesitant Late Surgers",
+      "Disorient"
+    ]
+  },
+  {},
+  {
+    "character_name": "Admire Vega",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Levelheaded",
+      "Masterful Gambit",
+      "End Closer Straightaways ○",
+      "Strategist",
+      "Tether"
+    ]
+  },
+  {
+    "character_name": "Mejiro Bright",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Right-Handed ○",
+      "Extra Tank",
+      "Passing Pro",
+      "Pressure",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Narita Top Road",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Non-Standard Distance ○",
+      "Firm Conditions ○",
+      "Inner Post Proficiency ○",
+      "Preferred Position",
+      "Prepared to Pass",
+      "Long Straightaways ○",
+      "All I've Got"
+    ]
+  },
+  {
+    "character_name": "Mr. C.B.",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Rainy Days ○",
+      "Homestretch Haste",
+      "Medium Corners ○",
+      "Tail Held High",
+      "Corner Acceleration ○",
+      "Straightaway Spurt",
+      "Strategist"
+    ]
+  },
+  {
+    "character_name": "Daiichi Ruby",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Lone Wolf",
+      "Gap Closer",
+      "Late Surger Straightaways ○",
+      "Fearless",
+      "Slick Surge",
+      "Hesitant Front Runners",
+      "Tether",
+      "Opening Gambit",
+      "Subdued Front Runners",
+      "Flustered Front Runners",
+      "Stop Right There!"
+    ]
+  },
+  {
+    "character_name": "K.S.Miracle",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Sprint Corners ○",
+      "Pace Chaser Straightaways ○",
+      "Attack Stance",
+      "Updrafters",
+      "Countermeasure"
+    ]
+  },
+  {
+    "character_name": "Tsurumaru Tsuyoshi",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Long Shot ○",
+      "Up-Tempo",
+      "Risky Business",
+      "Fighting Spirit",
+      "Full Throttle"
+    ]
+  },
+  {
+    "character_name": "Symboli Kris S",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Corner Recovery ○",
+      "Passing Pro",
+      "Long Straightaways ○",
+      "Late Surger Corners ○",
+      "1,500,000 CC",
+      "Fearless",
+      "Slick Surge",
+      "Devil-May-Care"
+    ]
+  },
+  {},
+  {
+    "character_name": "Tanino Gimlet",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Eager",
+      "Straightaway Spurt",
+      "Updrafters",
+      "Take the Chance",
+      "Hawkeye"
+    ]
+  },
+  {
+    "character_name": "Sakura Laurel",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Spring Runner ○",
+      "Winter Runner ○",
+      "Sunny Days ○",
+      "Deep Breaths",
+      "A Small Breather",
+      "Free-Spirited",
+      "Long Corners ○",
+      "Devil-May-Care",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Yamanin Zephyr",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Fall Runner ○",
+      "Long Shot ○",
+      "Pace Chaser Savvy ○",
+      "Mile Corners ○",
+      "Shifting Gears",
+      "Unyielding Spirit",
+      "Medium Corners ○",
+      "Ambitions",
+      "Corner Acceleration ○"
+    ]
+  },
+  {
+    "character_name": "Aston Machan",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Sprint Straightaways ○",
+      "Early Lead",
+      "Groundwork",
+      "Dodging Danger",
+      "Restart",
+      "Stop Right There!"
+    ]
+  },
+  {
+    "character_name": "Mejiro Ramonu",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Straightaway Adept",
+      "Mile Straightaways ○",
+      "Shifting Gears",
+      "Mile Corners ○",
+      "Medium Straightaways ○",
+      "All I've Got",
+      "Firm Step",
+      "Graceful Step",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Jungle Pocket",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Late Surger Corners ○",
+      "End Closer Corners ○",
+      "Early Start",
+      "Fearless",
+      "Razor-Sharp Stride",
+      "Take the Chance",
+      "Witful"
+    ]
+  },
+  {
+    "character_name": "Hokko Tarumae",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Dust Off",
+      "Promising Omen",
+      "At Full Speed",
+      "Backup Planning",
+      "Full of Zeal",
+      "Forward, March!"
+    ]
+  },
+  {
+    "character_name": "Katsuragi Ace",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Tokyo Racecourse ○",
+      "Fast-Paced",
+      "Steadfast",
+      "Medium Straightaways ○",
+      "Front Runner Corners ○",
+      "Leader's Pride",
+      "Ambitions",
+      "Firm Step",
+      "Steadfast"
+    ]
+  },
+  {
+    "character_name": "Copano Rickey",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Exchange Races ○",
+      "Oi Racecourse ○",
+      "Funabashi Racetrack ○",
+      "Morioka Racetrack ○",
+      "Pace Chaser Savvy ○",
+      "Top Pick",
+      "Dust Bath ○",
+      "Forward, March!"
+    ]
+  },
+  {
+    "character_name": "Wonder Acute",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Mud Play ○",
+      "Funabashi Racetrack ○",
+      "Nocturnal ○",
+      "Unyielding Spirit",
+      "Top Pick",
+      "At Full Speed",
+      "Dust Bath ○",
+      "Forward, March!",
+      "Pressing Feeling"
+    ]
+  },
+  {},
+  {
+    "character_name": "Tap Dance City",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Inner Post Proficiency ○",
+      "Fast-Paced",
+      "Front Runner Corners ○",
+      "Early Lead",
+      "Final Push"
+    ]
+  },
+  {
+    "character_name": "Still in Love",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Corner Adept ○",
+      "Straightaway Adept",
+      "Medium Corners ○",
+      "Tail Held High",
+      "Playtime's Over!",
+      "Refined Conduct",
+      "Boiling Emotions",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Verxina",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Tokyo Racecourse ○",
+      "Standard Distance ○",
+      "Fast-Paced",
+      "Second Wind",
+      "Prudent Positioning"
+    ]
+  },
+  {
+    "character_name": "Sounds of Earth",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Straightaway Recovery",
+      "Homestretch Haste",
+      "Slipstream",
+      "Playtime's Over!",
+      "Middle Leg Adept",
+      "Opening Leg Adept",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Vivlos",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Self-Assured",
+      "Be Still",
+      "Position Pilfer",
+      "Medium Straightaways ○",
+      "1,500,000 CC",
+      "Eager",
+      "Slick Surge"
+    ]
+  },
+  {
+    "character_name": "Royce and Royce",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Lay Low",
+      "Pace Strategy",
+      "Calm in a Crowd",
+      "Up-Tempo",
+      "Slipstream",
+      "Nimble Navigator",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Duramente",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Straightaway Recovery",
+      "Medium Straightaways ○",
+      "End Closer Straightaways ○",
+      "Slipstream",
+      "Rapid",
+      "Rising Passion",
+      "Unbreakable Mind"
+    ]
+  },
+  {
+    "character_name": "North Flight",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Standard Distance ○",
+      "Prepared to Pass",
+      "Productive Plan",
+      "Mile Corners ○",
+      "Updrafters",
+      "Acceleration",
+      "Go with the Flow",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Orfevre",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Corner Adept ○",
+      "Tail Held High",
+      "Playtime's Over!",
+      "Rapid",
+      "Rising Passion",
+      "Nimble Navigator",
+      "Mighty Step"
+    ]
+  },
+  {},
+  {
+    "character_name": "Cheval Grand",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Stamina to Spare",
+      "Prepared to Pass",
+      "Inside Scoop",
+      "Long Straightaways ○",
+      "Long Corners ○",
+      "Pace Chaser Straightaways ○",
+      "Attack Stance",
+      "True Worth"
+    ]
+  },
+  {
+    "character_name": "Neo Universe",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Standard Distance ○",
+      "Restraint",
+      "Medium Corners ○",
+      "Uma Stan",
+      "All I've Got",
+      "Eager",
+      "Mold Breaker",
+      "Ignition"
+    ]
+  },
+  {
+    "character_name": "Hishi Miracle",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Deep Breaths",
+      "A Small Breather",
+      "Lock On",
+      "Great Haste",
+      "On the Move",
+      "Slick Surge",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Dantsu Flame",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Ramp Up",
+      "Medium Straightaways ○",
+      "Uma Stan",
+      "All I've Got",
+      "Fighting Spirit",
+      "Tooth and Tail",
+      "Middle Leg Adept",
+      "Thunderbolt Step"
+    ]
+  },
+  {},
+  {
+    "character_name": "Espoir City",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Exchange Races ○",
+      "Skillful Step",
+      "Unyielding Spirit",
+      "Playtime's Over!",
+      "Promising Omen",
+      "Dust Bath ○",
+      "Pioneer",
+      "Dirt Corners ○",
+      "Contradicting Emotions"
+    ]
+  },
+  {
+    "character_name": "Bubble Gum Fellow",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Hydrate",
+      "Ramp Up",
+      "Ambitions",
+      "Opening Leg Adept",
+      "Leap Premonition",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Gentildonna",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Stamina to Spare",
+      "Straightaway Adept",
+      "Homestretch Haste",
+      "Uma Stan",
+      "Graceful Step",
+      "Fighter"
+    ]
+  },
+  {
+    "character_name": "Rhein Kraft",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Hanshin Racecourse ○",
+      "Prepared to Pass",
+      "Productive Plan",
+      "Mile Straightaways ○",
+      "Unyielding Spirit",
+      "Acceleration",
+      "Speed Eater"
+    ]
+  },
+  {
+    "character_name": "Cesario",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Standard Distance ○",
+      "Ramp Up",
+      "Homestretch Haste",
+      "All I've Got",
+      "Fighting Spirit",
+      "Tooth and Tail"
+    ]
+  },
+  {
+    "character_name": "Blast Onepiece",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Stamina to Spare",
+      "Corner Adept ○",
+      "Pace Chaser Straightaways ○",
+      "Uma Stan",
+      "Attack Stance",
+      "Decisive Blow",
+      "Steady Effort",
+      "Believe in Yourself",
+      "Honing In"
+    ]
+  },
+  {
+    "character_name": "No Reason",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Long Shot ○",
+      "Self-Assured",
+      "A Small Breather",
+      "Fighting Spirit",
+      "Tooth and Tail",
+      "Straightaway Acceleration",
+      "Fighter"
+    ]
+  },
+  {
+    "character_name": "Buena Vista",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Self-Assured",
+      "Ramp Up",
+      "Unyielding Spirit",
+      "Pumped",
+      "Corner Acceleration ○",
+      "Straightaway Acceleration",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Dream Journey",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Right-Handed ○",
+      "Masterful Gambit",
+      "End Closer Corners ○",
+      "Early Start",
+      "Boiling Blood",
+      "Sufficient Thrust",
+      "No Reluctance",
+      "Shadowstepper",
+      "Capture",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Daring Tact",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Spring Runner ○",
+      "Position Pilfer",
+      "Late Surger Straightaways ○",
+      "1,500,000 CC",
+      "Downhill Speedster",
+      "Razor-Sharp Stride",
+      "Overflowing Passion",
+      "On the Move",
+      "Pushing Through!",
+      "Descent"
+    ]
+  },
+  {
+    "character_name": "Daring Heart",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Sympathy",
+      "Ramp Up",
+      "Prepared to Pass",
+      "Productive Plan",
+      "Shifting Gears",
+      "Unyielding Spirit",
+      "Wind Vane",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Almond Eye",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Inquisitive Mind",
+      "Corner Adept ○",
+      "Straightaway Adept",
+      "Uma Stan",
+      "Tail Held High",
+      "Leap Premonition",
+      "To Greater Heights",
+      "Dynamic Motion",
+      "Nimble Navigator",
+      "Surpassing Ambitions"
+    ]
+  },
+  {
+    "character_name": "Lucky Lilac",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Self-Assured",
+      "Non-Standard Distance ○",
+      "Soft Step",
+      "Steadfast",
+      "Medium Corners ○",
+      "Towards the Light",
+      "Corner Acceleration ○"
+    ]
+  },
+  {
+    "character_name": "Gran Alegria",
+    "rarity": "R",
+    "type": "Power",
+    "hint_names": [
+      "Self-Assured",
+      "Standard Distance ○",
+      "Pumped",
+      "Rapid",
+      "Pounding Chest",
+      "Forward Step by Step",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Transcend",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Skillful Step",
+      "Playtime's Over!",
+      "Top Pick",
+      "Pioneer",
+      "Dirt Straights ○",
+      "Dirt Corners ○",
+      "Contradicting Emotions",
+      "Sand Stride",
+      "Groundwork",
+      "Forward, March!"
+    ]
+  },
+  {
+    "character_name": "Curren Bouquetd'or",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Corner Recovery ○",
+      "Preferred Position",
+      "Soft Step",
+      "Hydrate",
+      "Ramp Up",
+      "Attack Stance",
+      "Toward Victory",
+      "Leap Premonition",
+      "Towards the Light"
+    ]
+  },
+  {
+    "character_name": "Air Messiah",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Standard Distance ○",
+      "Fuse",
+      "Position Pilfer",
+      "Fighter",
+      "Highlander",
+      "Descent",
+      "Go with the Flow"
+    ]
+  },
+  {},
+  {
+    "character_name": "Fusaichi Pandora",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Preferred Position",
+      "Homestretch Haste",
+      "Pace Chaser Corners ○",
+      "Firm Step",
+      "Leap Premonition",
+      "Straight Descent",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Win Variation",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Right-Handed ○",
+      "Summer Runner ○",
+      "Straightaway Recovery",
+      "Stay the Course",
+      "Inside Scoop",
+      "Long Straightaways ○",
+      "Rapid Overtakes",
+      "Fierce Struggle",
+      "Find a Way!",
+      "Enthusiastic",
+      "Unwavering Heart"
+    ]
+  },
+  {
+    "character_name": "Stay Gold",
+    "rarity": "R",
+    "type": "Guts",
+    "hint_names": [
+      "Corner Adept ○",
+      "Uma Stan",
+      "Slipstream",
+      "Graceful Step",
+      "Ignition",
+      "Unbreakable Mind",
+      "Forward Step by Step",
+      "Peerless",
+      "Dream-Fulfilling Challenge",
+      "Intrigued",
+      "Carefree Step",
+      "Groundwork"
+    ]
+  },
+  {
+    "character_name": "Admire Groove",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Fall Runner ○",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "1,500,000 CC",
+      "Fearless",
+      "Dynamic Motion",
+      "Foothold",
+      "Simmering Heat",
+      "Model Student",
+      "Descent",
+      "Aim for the Summit"
+    ]
+  },
+  {
+    "character_name": "Chrono Genesis",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Non-Standard Distance ○",
+      "Calm in a Crowd",
+      "Tooth and Tail",
+      "Unshakeable Faith",
+      "Self-Restraint",
+      "Restless Step"
+    ]
+  },
+  {
+    "character_name": "Calstone Light O",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Fall Runner ○",
+      "Straightaway Adept",
+      "Sprint Straightaways ○",
+      "Playtime's Over!",
+      "An Honest Step",
+      "Pounding Chest",
+      "No Second Thoughts",
+      "No Third Chances",
+      "In No Time",
+      "Sprinting Gear",
+      "Swift Takeoff",
+      "Unyielding Step",
+      "Prudent Positioning"
+    ]
+  },
+  {
+    "character_name": "Durandal",
+    "rarity": "R",
+    "type": "Wit",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Straightaway Adept",
+      "End Closer Straightaways ○",
+      "Breakthrough Plan",
+      "No Reluctance",
+      "Bare Passion",
+      "Give Chase",
+      "Mighty Leap",
+      "Heat Up",
+      "Nosedive"
+    ]
+  },
+  {
+    "character_name": "Sakura Chitose O",
+    "rarity": "R",
+    "type": "Speed",
+    "hint_names": [
+      "Cloudy Days ○",
+      "Soft Step",
+      "Fuse",
+      "Medium Corners ○",
+      "Graceful Step",
+      "Self-Restraint",
+      "Switch Over Pro",
+      "Towards the Light",
+      "Dynamic Motion"
+    ]
+  },
+  {},
+  {
+    "character_name": "Fenomeno",
+    "rarity": "R",
+    "type": "Stamina",
+    "hint_names": [
+      "Faultless",
+      "Long Corners ○",
+      "Feature Act",
+      "Rising Passion",
+      "Decisive Blow",
+      "Steady Effort",
+      "Take the Plunge",
+      "Brute Force",
+      "True Worth",
+      "Honing In",
+      "One Brave Step"
+    ]
+  },
+  {
+    "character_name": "Fuji Kiseki",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Summer Runner ○",
+      "Cloudy Days ○",
+      "Mile Corners ○",
+      "Unyielding Spirit",
+      "Trick (Front)"
+    ]
+  },
+  {
+    "character_name": "Daiwa Scarlet",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Competitive Spirit ○",
+      "Preferred Position",
+      "Rosy Outlook",
+      "Prepared to Pass",
+      "Up-Tempo",
+      "Shifting Gears"
+    ]
+  },
+  {
+    "character_name": "Hishi Amazon",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "End Closer Savvy ○",
+      "Stamina to Spare",
+      "End Closer Straightaways ○",
+      "Straightaway Spurt"
+    ]
+  },
+  {
+    "character_name": "Air Groove",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Pace Strategy",
+      "Up-Tempo",
+      "Medium Straightaways ○",
+      "Groundwork",
+      "Hesitant End Closers",
+      "Flustered End Closers"
+    ]
+  },
+  {
+    "character_name": "Agnes Digital",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Lay Low",
+      "Calm in a Crowd",
+      "Mile Straightaways ○",
+      "Medium Straightaways ○",
+      "Late Surger Straightaways ○",
+      "Opening Gambit"
+    ]
+  },
+  {
+    "character_name": "Biwa Hayahide",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Outer Post Proficiency ○",
+      "Hanshin Racecourse ○",
+      "Wet Conditions ○",
+      "Cloudy Days ○",
+      "Frenzied End Closers"
+    ]
+  },
+  {
+    "character_name": "Mayano Top Gun",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Non-Standard Distance ○",
+      "Straightaway Recovery",
+      "Corner Adept ○",
+      "Straightaway Adept",
+      "Nimble Navigator",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Manhattan Cafe",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Rainy Days ○",
+      "Passing Pro",
+      "Long Straightaways ○",
+      "Highlander",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Mihono Bourbon",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Snowy Days ○",
+      "Front Runner Straightaways ○",
+      "Front Runner Corners ○",
+      "Early Lead"
+    ]
+  },
+  {
+    "character_name": "Mejiro Ryan",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Rainy Days ○",
+      "Up-Tempo",
+      "Medium Straightaways ○"
+    ]
+  },
+  {
+    "character_name": "Yukino Bijin",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Winter Runner ○",
+      "Nakayama Racecourse ○",
+      "Steadfast",
+      "Medium Corners ○"
+    ]
+  },
+  {
+    "character_name": "Agnes Tachyon",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Up-Tempo",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "Tether"
+    ]
+  },
+  {
+    "character_name": "Eishin Flash",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Standard Distance ○",
+      "Late Surger Straightaways ○",
+      "Late Surger Corners ○",
+      "Straightaway Acceleration",
+      "Fighter"
+    ]
+  },
+  {
+    "character_name": "Narita Taishin",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Lone Wolf",
+      "Lay Low",
+      "Calm in a Crowd",
+      "Standing By",
+      "Masterful Gambit",
+      "End Closer Corners ○",
+      "Intense Gaze"
+    ]
+  },
+  {
+    "character_name": "Marvelous Sunday",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Straightaway Adept",
+      "Ramp Up",
+      "Tail Held High",
+      "Hesitant Front Runners",
+      "Hesitant Pace Chasers"
+    ]
+  },
+  {
+    "character_name": "Matikanefukukitaru",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Hakodate Racecourse ○",
+      "Lucky Seven",
+      "Calm in a Crowd",
+      "A Small Breather",
+      "Triple 7s",
+      "Late Surger Corners ○",
+      "Trick (Rear)"
+    ]
+  },
+  {
+    "character_name": "Meisho Doto",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Long Shot ○",
+      "Non-Standard Distance ○",
+      "Firm Conditions ○",
+      "Inner Post Proficiency ○",
+      "Shake It Out",
+      "Late Surger Straightaways ○",
+      "Hawkeye"
+    ]
+  },
+  {
+    "character_name": "Mejiro Dober",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Kyoto Racecourse ○",
+      "Sunny Days ○",
+      "Late Surger Savvy ○",
+      "Up-Tempo",
+      "Steadfast"
+    ]
+  },
+  {
+    "character_name": "Nice Nature",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Kokura Racecourse ○",
+      "Lay Low",
+      "A Small Breather",
+      "Corner Acceleration ○",
+      "Go with the Flow",
+      "Hesitant Late Surgers",
+      "Murmur",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "King Halo",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Outer Post Proficiency ○",
+      "Firm Conditions ○",
+      "Cloudy Days ○",
+      "Corner Recovery ○",
+      "Wait-and-See",
+      "Gap Closer"
+    ]
+  },
+  {},
+  {
+    "character_name": "Tamamo Cross",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Rosy Outlook",
+      "Soft Step",
+      "Medium Corners ○",
+      "1,500,000 CC",
+      "Thunderbolt Step",
+      "Frenzied Late Surgers",
+      "Flustered Late Surgers"
+    ]
+  },
+  {
+    "character_name": "Sweep Tosho",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "After-School Stroll",
+      "Slipstream",
+      "Prudent Positioning",
+      "I Can See Right Through You",
+      "Trick (Front)",
+      "Trick (Rear)",
+      "Murmur"
+    ]
+  },
+  {
+    "character_name": "Daitaku Helios",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Sympathy",
+      "Stamina to Spare",
+      "Ramp Up",
+      "Mile Corners ○",
+      "Shifting Gears",
+      "Slipstream",
+      "Speed Eater"
+    ]
+  },
+  {
+    "character_name": "Ikuno Dictus",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Lay Low",
+      "Calm in a Crowd",
+      "Hawkeye",
+      "Studious",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Nice Nature",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Kokura Racecourse ○",
+      "Lay Low",
+      "A Small Breather",
+      "Corner Acceleration ○",
+      "Go with the Flow",
+      "Hesitant Late Surgers",
+      "Murmur",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Nishino Flower",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Hanshin Racecourse ○",
+      "Standard Distance ○",
+      "Firm Conditions ○",
+      "Pace Chaser Corners ○",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Zenno Rob Roy",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Late Surger Savvy ○",
+      "Straightaway Adept",
+      "Nimble Navigator",
+      "Shrewd Step",
+      "Prudent Positioning",
+      "Go with the Flow",
+      "Studious"
+    ]
+  },
+  {
+    "character_name": "Seeking the Pearl",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Pace Strategy",
+      "Watchful Eye",
+      "Sprint Straightaways ○",
+      "Unyielding Spirit",
+      "Sprinting Gear"
+    ]
+  },
+  {
+    "character_name": "Ines Fujin",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Moxie",
+      "Steadfast",
+      "Slipstream",
+      "Playtime's Over!",
+      "Speed Eater"
+    ]
+  },
+  {
+    "character_name": "Shinko Windy",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Competitive Spirit ○",
+      "Prepared to Pass",
+      "Hesitant Front Runners"
+    ]
+  },
+  {
+    "character_name": "Inari One",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Spring Runner ○",
+      "Winter Runner ○",
+      "Target in Sight ○",
+      "Familiar Ground",
+      "Ramp Up",
+      "Tail Held High",
+      "Forward, March!",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "El Condor Pasa",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Standard Distance ○",
+      "Prepared to Pass",
+      "Up-Tempo",
+      "Pace Chaser Straightaways ○",
+      "Head-On"
+    ]
+  },
+  {
+    "character_name": "Mejiro Ardan",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Left-Handed ○",
+      "Pace Chaser Savvy ○",
+      "Preferred Position",
+      "Soft Step",
+      "Pace Chaser Corners ○"
+    ]
+  },
+  {
+    "character_name": "Tosen Jordan",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Long Shot ○",
+      "Stamina to Spare",
+      "Position Pilfer",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "Pace Chaser Straightaways ○"
+    ]
+  },
+  {
+    "character_name": "Mejiro Palmer",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Deep Breaths",
+      "Extra Tank",
+      "Moxie",
+      "Stay the Course",
+      "Corner Adept ○",
+      "Keeping the Lead",
+      "Feature Act",
+      "Middle Leg Adept"
+    ]
+  },
+  {
+    "character_name": "Fine Motion",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Right-Handed ○",
+      "Fall Runner ○",
+      "Outer Post Proficiency ○",
+      "Straightaway Acceleration",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Sirius Symboli",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Lone Wolf",
+      "Wet Conditions ○",
+      "Prepared to Pass",
+      "Medium Corners ○"
+    ]
+  },
+  {
+    "character_name": "Vodka",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Tokyo Racecourse ○",
+      "Straightaway Recovery",
+      "Straightaway Adept",
+      "Homestretch Haste",
+      "Mile Straightaways ○",
+      "Medium Straightaways ○",
+      "Straightaway Acceleration",
+      "Slick Surge",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Mejiro Ryan",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Up-Tempo",
+      "Medium Straightaways ○",
+      "Slick Surge"
+    ]
+  },
+  {
+    "character_name": "Admire Vega",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Levelheaded",
+      "Masterful Gambit",
+      "End Closer Straightaways ○",
+      "Strategist",
+      "Tether"
+    ]
+  },
+  {
+    "character_name": "Sakura Bakushin O",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Sprint Straightaways ○",
+      "Sprint Corners ○",
+      "Huge Lead",
+      "Sprinting Gear",
+      "Countermeasure",
+      "Intimidate",
+      "Frenzied Front Runners",
+      "Flustered Front Runners"
+    ]
+  },
+  {
+    "character_name": "Special Week",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Stamina to Spare",
+      "Hydrate",
+      "Homestretch Haste",
+      "Steadfast",
+      "Pace Chaser Straightaways ○",
+      "Tactical Tweak"
+    ]
+  },
+  {
+    "character_name": "Curren Chan",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Sprint Straightaways ○",
+      "Sprinting Gear",
+      "Meticulous Measures",
+      "Hesitant Late Surgers",
+      "Disorient"
+    ]
+  },
+  {
+    "character_name": "Smart Falcon",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Oi Racecourse ○",
+      "Wet Conditions ○",
+      "Cloudy Days ○",
+      "Front Runner Savvy ○",
+      "Front Runner Straightaways ○",
+      "Top Pick",
+      "Forward, March!"
+    ]
+  },
+  {
+    "character_name": "Sweep Tosho",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "End Closer Savvy ○",
+      "After-School Stroll",
+      "End Closer Corners ○",
+      "Slipstream",
+      "Prudent Positioning",
+      "I Can See Right Through You",
+      "Murmur"
+    ]
+  },
+  {
+    "character_name": "Tokai Teio",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Soft Step",
+      "Nimble Navigator",
+      "Shrewd Step",
+      "Prudent Positioning",
+      "Go with the Flow",
+      "Thunderbolt Step"
+    ]
+  },
+  {
+    "character_name": "Oguri Cap",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Homestretch Haste",
+      "Unyielding Spirit",
+      "Pumped",
+      "Fearless",
+      "Corner Acceleration ○",
+      "Nimble Navigator",
+      "Acceleration",
+      "Groundwork"
+    ]
+  },
+  {
+    "character_name": "Gold City",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Long Shot ○",
+      "Lone Wolf",
+      "Rainy Days ○",
+      "Watchful Eye",
+      "Tail Held High"
+    ]
+  },
+  {
+    "character_name": "Seiun Sky",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Front Runner Savvy ○",
+      "Fast-Paced",
+      "Early Lead",
+      "Groundwork",
+      "Hesitant Pace Chasers",
+      "Frenzied Late Surgers"
+    ]
+  },
+  {
+    "character_name": "K.S.Miracle",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Sprint Corners ○",
+      "Pace Chaser Straightaways ○",
+      "Attack Stance",
+      "Updrafters",
+      "Countermeasure"
+    ]
+  },
+  {
+    "character_name": "Tsurumaru Tsuyoshi",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Long Shot ○",
+      "Up-Tempo",
+      "Risky Business",
+      "Fighting Spirit",
+      "Full Throttle"
+    ]
+  },
+  {
+    "character_name": "Narita Top Road",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Right-Handed ○",
+      "Non-Standard Distance ○",
+      "Firm Conditions ○",
+      "Preferred Position",
+      "Prepared to Pass"
+    ]
+  },
+  {
+    "character_name": "TM Opera O",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Non-Standard Distance ○",
+      "Corner Recovery ○",
+      "Stamina to Spare",
+      "Straightaway Adept",
+      "Prepared to Pass",
+      "Up-Tempo",
+      "Long Corners ○",
+      "Feature Act",
+      "Head-On"
+    ]
+  },
+  {
+    "character_name": "Aston Machan",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Sprint Straightaways ○",
+      "Early Lead",
+      "Groundwork",
+      "Dodging Danger",
+      "Restart",
+      "Stop Right There!"
+    ]
+  },
+  {
+    "character_name": "Jungle Pocket",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Late Surger Corners ○",
+      "End Closer Corners ○",
+      "Early Start",
+      "Fearless",
+      "Razor-Sharp Stride",
+      "Take the Chance",
+      "Witful"
+    ]
+  },
+  {
+    "character_name": "Mejiro Dober",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Right-Handed ○",
+      "Non-Standard Distance ○",
+      "Medium Corners ○",
+      "Take the Chance",
+      "Thunderbolt Step",
+      "Tether"
+    ]
+  },
+  {
+    "character_name": "Symboli Rudolf",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Long Straightaways ○",
+      "Long Corners ○",
+      "Feature Act",
+      "Devil-May-Care",
+      "Subdued Front Runners",
+      "Subdued Pace Chasers",
+      "Subdued Late Surgers",
+      "Subdued End Closers"
+    ]
+  },
+  {
+    "character_name": "Agnes Tachyon",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Right-Handed ○",
+      "Nakayama Racecourse ○",
+      "Pace Chaser Savvy ○",
+      "Up-Tempo",
+      "Medium Straightaways ○",
+      "Risky Business",
+      "Attack Stance",
+      "Head-On",
+      "Tether"
+    ]
+  },
+  {
+    "character_name": "Hishi Akebono",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Sunny Days ○",
+      "Sprint Corners ○",
+      "Ambitions",
+      "Corner Acceleration ○",
+      "Sprinting Gear",
+      "Countermeasure",
+      "Meticulous Measures"
+    ]
+  },
+  {
+    "character_name": "Gold Ship",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Sympathy",
+      "End Closer Savvy ○",
+      "Standing By",
+      "Passing Pro",
+      "After-School Stroll",
+      "Inside Scoop",
+      "Pressure",
+      "End Closer Straightaways ○",
+      "End Closer Corners ○",
+      "Uma Stan",
+      "Early Start",
+      "Risky Business",
+      "Breakthrough Plan",
+      "Straightaway Spurt",
+      "Witful",
+      "I Can See Right Through You",
+      "Strategist",
+      "Intense Gaze",
+      "Frenzied Front Runners",
+      "Frenzied Pace Chasers",
+      "Frenzied Late Surgers",
+      "Frenzied End Closers",
+      "Stamina Eater",
+      "Smoke Screen"
+    ]
+  },
+  {
+    "character_name": "Maruzensky",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Nakayama Racecourse ○",
+      "Productive Plan",
+      "Graceful Step",
+      "Early Lead",
+      "Final Push",
+      "Acceleration",
+      "Speed Eater"
+    ]
+  },
+  {
+    "character_name": "Silence Suzuka",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Left-Handed ○",
+      "Firm Conditions ○",
+      "Sunny Days ○",
+      "Shake It Out",
+      "Fast-Paced",
+      "Front Runner Straightaways ○",
+      "Rushing in Blind",
+      "Restart"
+    ]
+  },
+  {
+    "character_name": "Copano Rickey",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Exchange Races ○",
+      "Oi Racecourse ○",
+      "Funabashi Racetrack ○",
+      "Morioka Racetrack ○",
+      "Pace Chaser Savvy ○",
+      "Top Pick",
+      "Dust Bath ○",
+      "Forward, March!"
+    ]
+  },
+  {
+    "character_name": "Grass Wonder",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Position Pilfer",
+      "Outer Swell",
+      "Mile Corners ○",
+      "Unyielding Spirit",
+      "1,500,000 CC",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Kitasan Black",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Corner Recovery ○",
+      "Straightaway Recovery",
+      "Extra Tank",
+      "Corner Adept ○",
+      "Keeping the Lead",
+      "Front Runner Straightaways ○",
+      "Steadfast"
+    ]
+  },
+  {
+    "character_name": "Taiki Shuttle",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Productive Plan",
+      "Mile Corners ○",
+      "Shifting Gears",
+      "Acceleration",
+      "Speed Eater"
+    ]
+  },
+  {
+    "character_name": "Nice Nature",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "A Small Breather",
+      "Be Still",
+      "Slick Surge",
+      "Fighter",
+      "Murmur",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Matikanetannhauser",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Calm in a Crowd",
+      "Be Still",
+      "Position Pilfer",
+      "Pressure",
+      "Late Surger Straightaways ○",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Verxina",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Tokyo Racecourse ○",
+      "Standard Distance ○",
+      "Fast-Paced",
+      "Second Wind",
+      "Prudent Positioning"
+    ]
+  },
+  {
+    "character_name": "Royce and Royce",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Lay Low",
+      "Pace Strategy",
+      "Calm in a Crowd",
+      "Up-Tempo",
+      "Slipstream",
+      "Nimble Navigator",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Tanino Gimlet",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Straightaway Adept",
+      "Masterful Gambit",
+      "Medium Straightaways ○",
+      "End Closer Straightaways ○",
+      "Straightaway Spurt",
+      "Go with the Flow",
+      "I Can See Right Through You"
+    ]
+  },
+  {
+    "character_name": "Tosen Jordan",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Long Shot ○",
+      "Self-Assured",
+      "Prepared to Pass",
+      "Up-Tempo",
+      "Medium Straightaways ○",
+      "Middle Leg Adept",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Yaeno Muteki",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Pace Strategy",
+      "Preferred Position",
+      "Homestretch Haste",
+      "Steadfast",
+      "Medium Corners ○",
+      "Fighting Spirit",
+      "Ambitions"
+    ]
+  },
+  {
+    "character_name": "Tap Dance City",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Self-Assured",
+      "Tokyo Racecourse ○",
+      "Rosy Outlook",
+      "Up-Tempo",
+      "With All My Soul",
+      "Middle Leg Adept",
+      "Straightaway Acceleration",
+      "Dodging Danger"
+    ]
+  },
+  {
+    "character_name": "Air Shakur",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Levelheaded",
+      "Masterful Gambit",
+      "End Closer Straightaways ○",
+      "Breakthrough Plan",
+      "Ghastly",
+      "Straightaway Acceleration"
+    ]
+  },
+  {
+    "character_name": "Dantsu Flame",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Ramp Up",
+      "Medium Straightaways ○",
+      "Uma Stan",
+      "All I've Got",
+      "Fighting Spirit",
+      "Tooth and Tail",
+      "Middle Leg Adept",
+      "Thunderbolt Step"
+    ]
+  },
+  {
+    "character_name": "Matikanefukukitaru",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Lucky Seven",
+      "Triple 7s",
+      "Free-Spirited",
+      "Pressure",
+      "Middle Leg Adept",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Marvelous Sunday",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Right-Handed ○",
+      "Preferred Position",
+      "Ramp Up",
+      "Up-Tempo",
+      "Straightaway Acceleration",
+      "Shrewd Step",
+      "Take the Chance"
+    ]
+  },
+  {
+    "character_name": "Sakura Laurel",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Lay Low",
+      "Deep Breaths",
+      "Passing Pro",
+      "Rising Passion",
+      "Devil-May-Care",
+      "Go with the Flow",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "North Flight",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Standard Distance ○",
+      "Ramp Up",
+      "Productive Plan",
+      "Mile Corners ○",
+      "Rushing in Blind",
+      "Wind Vane",
+      "Acceleration",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Bubble Gum Fellow",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Hydrate",
+      "Ramp Up",
+      "Ambitions",
+      "Opening Leg Adept",
+      "Leap Premonition",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Mejiro Ramonu",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Soft Step",
+      "Ramp Up",
+      "Steadfast",
+      "All I've Got",
+      "Fighting Spirit",
+      "Graceful Step",
+      "Towards the Light"
+    ]
+  },
+  {
+    "character_name": "Lucky Lilac",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Self-Assured",
+      "Non-Standard Distance ○",
+      "Soft Step",
+      "Steadfast",
+      "Medium Corners ○",
+      "Towards the Light",
+      "Corner Acceleration ○"
+    ]
+  },
+  {
+    "character_name": "Mejiro McQueen",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Pace Strategy",
+      "Calm in a Crowd",
+      "Deep Breaths",
+      "Attack Stance",
+      "Toward Victory",
+      "Decisive Blow",
+      "Fervor"
+    ]
+  },
+  {
+    "character_name": "Rice Shower",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Kyoto Racecourse ○",
+      "Deep Breaths",
+      "Hydrate",
+      "Unbreakable Mind",
+      "Fervor",
+      "Highlander",
+      "Honing In"
+    ]
+  },
+  {
+    "character_name": "Daring Heart",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Sympathy",
+      "Ramp Up",
+      "Prepared to Pass",
+      "Productive Plan",
+      "Shifting Gears",
+      "Unyielding Spirit",
+      "Wind Vane",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Curren Bouquetd'or",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Corner Recovery ○",
+      "Preferred Position",
+      "Soft Step",
+      "Hydrate",
+      "Ramp Up",
+      "Attack Stance",
+      "Toward Victory",
+      "Leap Premonition",
+      "Towards the Light"
+    ]
+  },
+  {
+    "character_name": "Kawakami Princess",
+    "rarity": "SR",
+    "type": "Guts",
+    "hint_names": [
+      "Sympathy",
+      "Eager",
+      "Tooth and Tail",
+      "Unbreakable Mind",
+      "Pushing Through!",
+      "Corner Acceleration ○",
+      "Thunderbolt Step"
+    ]
+  },
+  {
+    "character_name": "Biko Pegasus",
+    "rarity": "SR",
+    "type": "Wit",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Full Throttle",
+      "Unbreakable Mind",
+      "Explosive Force",
+      "Bare Passion",
+      "Sprinting Gear",
+      "Fighter",
+      "Mighty Leap"
+    ]
+  },
+  {
+    "character_name": "Sakura Chitose O",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Cloudy Days ○",
+      "Soft Step",
+      "Fuse",
+      "Medium Corners ○",
+      "Graceful Step",
+      "Self-Restraint",
+      "Switch Over Pro",
+      "Towards the Light",
+      "Dynamic Motion"
+    ]
+  },
+  {
+    "character_name": "Hokko Tarumae",
+    "rarity": "SR",
+    "type": "Power",
+    "hint_names": [
+      "Sympathy",
+      "Dust Bath ○",
+      "Dirt Straights ○",
+      "Aggressive",
+      "Believe in Yourself",
+      "Sand Stride",
+      "Shrewd Step",
+      "Full of Zeal"
+    ]
+  },
+  {
+    "character_name": "Mejiro Dober",
+    "rarity": "SR",
+    "type": "Speed",
+    "hint_names": [
+      "Winter Runner ○",
+      "Pumped",
+      "From the First Step",
+      "Boiling Emotions",
+      "Step Up",
+      "Descent",
+      "Go with the Flow",
+      "Studious"
+    ]
+  },
+  {
+    "character_name": "Satono Diamond",
+    "rarity": "SR",
+    "type": "Stamina",
+    "hint_names": [
+      "Winter Runner ○",
+      "A Small Breather",
+      "Fighting Spirit",
+      "Rising Passion",
+      "Towards the Light",
+      "Straight Steps",
+      "Exploit the Gap",
+      "Fighter",
+      "Take the Chance"
+    ]
+  },
+  {
+    "character_name": "Special Week",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Rainy Days ○",
+      "Late Surger Savvy ○",
+      "Hydrate",
+      "Homestretch Haste",
+      "Outer Swell",
+      "Steadfast"
+    ]
+  },
+  {
+    "character_name": "Silence Suzuka",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Front Runner Savvy ○",
+      "Rosy Outlook",
+      "Fast-Paced",
+      "Front Runner Straightaways ○",
+      "Front Runner Corners ○",
+      "Leader's Pride",
+      "Early Lead",
+      "Final Push",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Tokai Teio",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Soft Step",
+      "Nimble Navigator",
+      "Shrewd Step",
+      "Prudent Positioning",
+      "Go with the Flow",
+      "Thunderbolt Step"
+    ]
+  },
+  {
+    "character_name": "Gold Ship",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Sympathy",
+      "End Closer Savvy ○",
+      "Standing By",
+      "After-School Stroll",
+      "Inside Scoop",
+      "Pressure",
+      "Uma Stan",
+      "Straightaway Spurt",
+      "Highlander",
+      "Groundwork",
+      "I Can See Right Through You",
+      "Strategist",
+      "Intense Gaze",
+      "Smoke Screen"
+    ]
+  },
+  {
+    "character_name": "Vodka",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Tokyo Racecourse ○",
+      "Straightaway Recovery",
+      "Straightaway Adept",
+      "Homestretch Haste",
+      "Mile Straightaways ○",
+      "Medium Straightaways ○",
+      "Straightaway Acceleration",
+      "Slick Surge",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Grass Wonder",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Nakayama Racecourse ○",
+      "Competitive Spirit ○",
+      "Homestretch Haste",
+      "Position Pilfer",
+      "Slick Surge",
+      "Updrafters",
+      "Tether",
+      "Flustered Pace Chasers"
+    ]
+  },
+  {
+    "character_name": "El Condor Pasa",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Standard Distance ○",
+      "Sunny Days ○",
+      "Prepared to Pass",
+      "Up-Tempo",
+      "Medium Straightaways ○",
+      "Pace Chaser Straightaways ○",
+      "Hawkeye"
+    ]
+  },
+  {
+    "character_name": "Seiun Sky",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Long Shot ○",
+      "Inner Post Proficiency ○",
+      "Tail Held High",
+      "Hesitant Pace Chasers",
+      "Frenzied Late Surgers",
+      "Trick (Front)"
+    ]
+  },
+  {
+    "character_name": "Tamamo Cross",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Rosy Outlook",
+      "Soft Step",
+      "Medium Corners ○",
+      "1,500,000 CC",
+      "Thunderbolt Step",
+      "Frenzied Late Surgers",
+      "Flustered Late Surgers"
+    ]
+  },
+  {
+    "character_name": "Fine Motion",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Right-Handed ○",
+      "Fall Runner ○",
+      "Outer Post Proficiency ○",
+      "Straightaway Acceleration",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Ines Fujin",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Moxie",
+      "Steadfast",
+      "Slipstream",
+      "Playtime's Over!",
+      "Speed Eater"
+    ]
+  },
+  {
+    "character_name": "Winning Ticket",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Cloudy Days ○",
+      "Position Pilfer",
+      "Outer Swell",
+      "Slick Surge"
+    ]
+  },
+  {
+    "character_name": "Air Shakur",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Levelheaded",
+      "Pressure",
+      "Strategist"
+    ]
+  },
+  {
+    "character_name": "Gold City",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Sapporo Racecourse ○",
+      "Watchful Eye",
+      "Acceleration"
+    ]
+  },
+  {
+    "character_name": "Sakura Bakushin O",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Sprint Straightaways ○",
+      "Sprint Corners ○",
+      "Huge Lead",
+      "Sprinting Gear",
+      "Countermeasure",
+      "Intimidate",
+      "Frenzied Front Runners",
+      "Flustered Front Runners"
+    ]
+  },
+  {
+    "character_name": "Super Creek",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Corner Recovery ○",
+      "Ramp Up",
+      "Homestretch Haste",
+      "Hesitant Pace Chasers"
+    ]
+  },
+  {
+    "character_name": "Smart Falcon",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Outer Post Proficiency ○",
+      "Oi Racecourse ○",
+      "Wet Conditions ○",
+      "Cloudy Days ○",
+      "Front Runner Savvy ○",
+      "Corner Recovery ○",
+      "Second Wind",
+      "Restart"
+    ]
+  },
+  {
+    "character_name": "Nishino Flower",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Hanshin Racecourse ○",
+      "Standard Distance ○",
+      "Firm Conditions ○",
+      "Pace Chaser Corners ○",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Haru Urara",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": []
+  },
+  {
+    "character_name": "Biko Pegasus",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Outer Post Proficiency ○",
+      "Wait-and-See",
+      "Gap Closer",
+      "Productive Plan",
+      "Updrafters",
+      "Meticulous Measures",
+      "Stop Right There!"
+    ]
+  },
+  {},
+  {
+    "character_name": "Mejiro McQueen",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Kyoto Racecourse ○",
+      "Wet Conditions ○",
+      "Rainy Days ○",
+      "Stamina to Spare",
+      "Deep Breaths",
+      "Extra Tank",
+      "Corner Adept ○",
+      "Straightaway Adept",
+      "Prepared to Pass",
+      "Inside Scoop"
+    ]
+  },
+  {
+    "character_name": "Rice Shower",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Maverick ○",
+      "Kyoto Racecourse ○",
+      "Deep Breaths",
+      "Straight Descent",
+      "Highlander",
+      "Frenzied Pace Chasers",
+      "Subdued Pace Chasers",
+      "Flustered Pace Chasers",
+      "Disorient"
+    ]
+  },
+  {
+    "character_name": "Oguri Cap",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Cloudy Days ○",
+      "Hydrate",
+      "Corner Adept ○",
+      "Homestretch Haste",
+      "Up-Tempo",
+      "Corner Acceleration ○",
+      "Nimble Navigator",
+      "Acceleration",
+      "Groundwork",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Special Week",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Rainy Days ○",
+      "Late Surger Savvy ○",
+      "Hydrate",
+      "Homestretch Haste",
+      "Outer Swell",
+      "Steadfast"
+    ]
+  },
+  {
+    "character_name": "Twin Turbo",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Competitive Spirit ○",
+      "Target in Sight ○",
+      "Moxie",
+      "Fast-Paced",
+      "Leader's Pride",
+      "Early Lead"
+    ]
+  },
+  {
+    "character_name": "Mejiro Palmer",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Sympathy",
+      "Nakayama Racecourse ○",
+      "Hanshin Racecourse ○",
+      "Moxie",
+      "Fast-Paced",
+      "Early Lead",
+      "Flustered Pace Chasers"
+    ]
+  },
+  {
+    "character_name": "Kitasan Black",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Corner Recovery ○",
+      "Straightaway Recovery",
+      "Extra Tank",
+      "Corner Adept ○",
+      "Long Corners ○",
+      "Front Runner Straightaways ○",
+      "Dodging Danger",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Satono Diamond",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Sunny Days ○",
+      "A Small Breather",
+      "Medium Corners ○",
+      "Studious",
+      "Tether",
+      "Flustered Front Runners"
+    ]
+  },
+  {
+    "character_name": "Matikanetannhauser",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Lay Low",
+      "Pace Strategy",
+      "Deep Breaths",
+      "Steadfast",
+      "Fighter"
+    ]
+  },
+  {
+    "character_name": "Yukino Bijin",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Winter Runner ○",
+      "Nakayama Racecourse ○",
+      "Steadfast",
+      "Medium Corners ○"
+    ]
+  },
+  {
+    "character_name": "Yaeno Muteki",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Ramp Up",
+      "Homestretch Haste",
+      "Prepared to Pass",
+      "Up-Tempo",
+      "Tail Held High"
+    ]
+  },
+  {
+    "character_name": "Winning Ticket",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Cloudy Days ○",
+      "Position Pilfer",
+      "Outer Swell",
+      "Slick Surge"
+    ]
+  },
+  {
+    "character_name": "Rice Shower",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Maverick ○",
+      "Kyoto Racecourse ○",
+      "Deep Breaths",
+      "Straight Descent",
+      "Highlander",
+      "Frenzied Pace Chasers",
+      "Subdued Pace Chasers",
+      "Flustered Pace Chasers",
+      "Disorient"
+    ]
+  },
+  {},
+  {
+    "character_name": "Symboli Rudolf",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Right-Handed ○",
+      "Nakayama Racecourse ○",
+      "Corner Recovery ○",
+      "Rosy Outlook",
+      "Medium Corners ○",
+      "Fighting Spirit",
+      "Eager",
+      "Ambitions",
+      "Firm Step",
+      "Tooth and Tail",
+      "Mold Breaker",
+      "Tether"
+    ]
+  },
+  {
+    "character_name": "Sakura Chiyono O",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Steadfast",
+      "Shifting Gears",
+      "Medium Corners ○"
+    ]
+  },
+  {
+    "character_name": "Kawakami Princess",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Standard Distance ○",
+      "Preferred Position",
+      "Soft Step",
+      "Tactical Tweak"
+    ]
+  },
+  {
+    "character_name": "Hishi Akebono",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Sunny Days ○",
+      "Hydrate",
+      "Sprint Corners ○",
+      "Final Push",
+      "Countermeasure",
+      "Meticulous Measures"
+    ]
+  },
+  {
+    "character_name": "Mejiro Dober",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Kyoto Racecourse ○",
+      "Sunny Days ○",
+      "Late Surger Savvy ○",
+      "Up-Tempo",
+      "Steadfast"
+    ]
+  },
+  {
+    "character_name": "Bamboo Memory",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Target in Sight ○",
+      "Straightaway Adept",
+      "Gap Closer",
+      "Mile Straightaways ○",
+      "Late Surger Straightaways ○",
+      "Acceleration"
+    ]
+  },
+  {
+    "character_name": "Nakayama Festa",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Long Shot ○",
+      "Wet Conditions ○",
+      "Lucky Seven",
+      "Outer Swell",
+      "Steadfast",
+      "Late Surger Straightaways ○",
+      "All I've Got",
+      "Slick Surge",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Narita Brian",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Right-Handed ○",
+      "Preferred Position",
+      "Hydrate",
+      "Outer Swell",
+      "Inside Scoop",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "Long Straightaways ○"
+    ]
+  },
+  {
+    "character_name": "Sweep Tosho",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "After-School Stroll",
+      "Slipstream",
+      "Prudent Positioning",
+      "I Can See Right Through You",
+      "Trick (Front)",
+      "Trick (Rear)",
+      "Murmur"
+    ]
+  },
+  {
+    "character_name": "Winning Ticket",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Cloudy Days ○",
+      "Position Pilfer",
+      "Outer Swell",
+      "Slick Surge"
+    ]
+  },
+  {
+    "character_name": "Daiwa Scarlet",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Competitive Spirit ○",
+      "Preferred Position",
+      "Rosy Outlook",
+      "Prepared to Pass",
+      "Up-Tempo",
+      "Shifting Gears"
+    ]
+  },
+  {
+    "character_name": "Mejiro Ryan",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Rainy Days ○",
+      "Up-Tempo",
+      "Medium Straightaways ○"
+    ]
+  },
+  {},
+  {
+    "character_name": "Taiki Shuttle",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Productive Plan",
+      "Mile Straightaways ○",
+      "Shifting Gears",
+      "Acceleration",
+      "Speed Eater"
+    ]
+  },
+  {
+    "character_name": "Nice Nature",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Kokura Racecourse ○",
+      "Lay Low",
+      "A Small Breather",
+      "Corner Acceleration ○",
+      "Go with the Flow",
+      "Hesitant Late Surgers",
+      "Murmur",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Seiun Sky",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Long Shot ○",
+      "Inner Post Proficiency ○",
+      "Tail Held High",
+      "Hesitant Pace Chasers",
+      "Frenzied Late Surgers",
+      "Trick (Front)"
+    ]
+  },
+  {
+    "character_name": "King Halo",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Outer Post Proficiency ○",
+      "Firm Conditions ○",
+      "Cloudy Days ○",
+      "Corner Recovery ○",
+      "Wait-and-See",
+      "Gap Closer"
+    ]
+  },
+  {
+    "character_name": "Gold Ship",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Sympathy",
+      "End Closer Savvy ○",
+      "Standing By",
+      "After-School Stroll",
+      "Inside Scoop",
+      "Pressure",
+      "Uma Stan",
+      "Straightaway Spurt",
+      "Highlander",
+      "Groundwork",
+      "I Can See Right Through You",
+      "Strategist",
+      "Intense Gaze",
+      "Smoke Screen"
+    ]
+  },
+  {
+    "character_name": "Tokai Teio",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Soft Step",
+      "Nimble Navigator",
+      "Shrewd Step",
+      "Prudent Positioning",
+      "Go with the Flow",
+      "Thunderbolt Step"
+    ]
+  },
+  {
+    "character_name": "Mihono Bourbon",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Snowy Days ○",
+      "Front Runner Straightaways ○",
+      "Front Runner Corners ○",
+      "Early Lead"
+    ]
+  },
+  {
+    "character_name": "Twin Turbo",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Competitive Spirit ○",
+      "Target in Sight ○",
+      "Moxie",
+      "Fast-Paced",
+      "Leader's Pride",
+      "Early Lead"
+    ]
+  },
+  {
+    "character_name": "Biwa Hayahide",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Outer Post Proficiency ○",
+      "Hanshin Racecourse ○",
+      "Wet Conditions ○",
+      "Cloudy Days ○",
+      "Frenzied End Closers"
+    ]
+  },
+  {
+    "character_name": "Silence Suzuka",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Front Runner Savvy ○",
+      "Rosy Outlook",
+      "Fast-Paced",
+      "Front Runner Straightaways ○",
+      "Front Runner Corners ○",
+      "Leader's Pride",
+      "Early Lead",
+      "Final Push",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Ikuno Dictus",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Lay Low",
+      "Calm in a Crowd",
+      "Hawkeye",
+      "Studious",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Tamamo Cross",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Rosy Outlook",
+      "Soft Step",
+      "Medium Corners ○",
+      "1,500,000 CC",
+      "Thunderbolt Step",
+      "Frenzied Late Surgers",
+      "Flustered Late Surgers"
+    ]
+  },
+  {
+    "character_name": "Zenno Rob Roy",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Late Surger Savvy ○",
+      "Straightaway Adept",
+      "Nimble Navigator",
+      "Shrewd Step",
+      "Prudent Positioning",
+      "Go with the Flow",
+      "Studious"
+    ]
+  },
+  {
+    "character_name": "Mihono Bourbon",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Snowy Days ○",
+      "Front Runner Straightaways ○",
+      "Front Runner Corners ○",
+      "Early Lead"
+    ]
+  },
+  {},
+  {
+    "character_name": "Curren Chan",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Sprint Straightaways ○",
+      "Sprinting Gear",
+      "Meticulous Measures",
+      "Hesitant Late Surgers",
+      "Disorient"
+    ]
+  },
+  {
+    "character_name": "Narita Brian",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Right-Handed ○",
+      "Preferred Position",
+      "Hydrate",
+      "Outer Swell",
+      "Inside Scoop",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "Long Straightaways ○"
+    ]
+  },
+  {
+    "character_name": "Yukino Bijin",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Winter Runner ○",
+      "Nakayama Racecourse ○",
+      "Steadfast",
+      "Medium Corners ○"
+    ]
+  },
+  {
+    "character_name": "Daitaku Helios",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Sympathy",
+      "Stamina to Spare",
+      "Ramp Up",
+      "Mile Corners ○",
+      "Shifting Gears",
+      "Slipstream",
+      "Speed Eater"
+    ]
+  },
+  {
+    "character_name": "Mayano Top Gun",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Non-Standard Distance ○",
+      "Straightaway Recovery",
+      "Corner Adept ○",
+      "Straightaway Adept",
+      "Nimble Navigator",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Narita Taishin",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Lone Wolf",
+      "Lay Low",
+      "Calm in a Crowd",
+      "Standing By",
+      "Masterful Gambit",
+      "End Closer Corners ○",
+      "Intense Gaze"
+    ]
+  },
+  {
+    "character_name": "Marvelous Sunday",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Straightaway Adept",
+      "Ramp Up",
+      "Tail Held High",
+      "Hesitant Front Runners",
+      "Hesitant Pace Chasers"
+    ]
+  },
+  {
+    "character_name": "Manhattan Cafe",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Wet Conditions ○",
+      "Rainy Days ○",
+      "Passing Pro",
+      "Long Straightaways ○",
+      "Highlander",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Silence Suzuka",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Front Runner Savvy ○",
+      "Rosy Outlook",
+      "Fast-Paced",
+      "Front Runner Straightaways ○",
+      "Front Runner Corners ○",
+      "Leader's Pride",
+      "Early Lead",
+      "Final Push",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Admire Vega",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Levelheaded",
+      "Masterful Gambit",
+      "End Closer Straightaways ○",
+      "Strategist",
+      "Tether"
+    ]
+  },
+  {
+    "character_name": "Matikanefukukitaru",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Hakodate Racecourse ○",
+      "Lucky Seven",
+      "Calm in a Crowd",
+      "A Small Breather",
+      "Triple 7s",
+      "Late Surger Corners ○",
+      "Trick (Rear)"
+    ]
+  },
+  {
+    "character_name": "Meisho Doto",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Long Shot ○",
+      "Non-Standard Distance ○",
+      "Firm Conditions ○",
+      "Inner Post Proficiency ○",
+      "Shake It Out",
+      "Late Surger Straightaways ○",
+      "Hawkeye"
+    ]
+  },
+  {},
+  {},
+  {
+    "character_name": "Nishino Flower",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Hanshin Racecourse ○",
+      "Standard Distance ○",
+      "Firm Conditions ○",
+      "Pace Chaser Corners ○",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Sakura Bakushin O",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Sprint Straightaways ○",
+      "Sprint Corners ○",
+      "Huge Lead",
+      "Sprinting Gear",
+      "Countermeasure",
+      "Intimidate",
+      "Frenzied Front Runners",
+      "Flustered Front Runners"
+    ]
+  },
+  {
+    "character_name": "Tosen Jordan",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Long Shot ○",
+      "Stamina to Spare",
+      "Position Pilfer",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "Pace Chaser Straightaways ○"
+    ]
+  },
+  {
+    "character_name": "Agnes Digital",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Left-Handed ○",
+      "Mile Straightaways ○",
+      "Late Surger Straightaways ○",
+      "Uma Stan",
+      "All I've Got",
+      "Forward, March!"
+    ]
+  },
+  {
+    "character_name": "Narita Top Road",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Non-Standard Distance ○",
+      "Firm Conditions ○",
+      "Inner Post Proficiency ○",
+      "Preferred Position",
+      "Prepared to Pass",
+      "Long Straightaways ○",
+      "All I've Got"
+    ]
+  },
+  {
+    "character_name": "Mejiro Bright",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Right-Handed ○",
+      "Extra Tank",
+      "Passing Pro",
+      "Pressure",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Satono Diamond",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Late Surger Savvy ○",
+      "Be Still",
+      "Position Pilfer",
+      "Pressure",
+      "Late Surger Straightaways ○",
+      "Late Surger Corners ○"
+    ]
+  },
+  {
+    "character_name": "Marvelous Sunday",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Straightaway Adept",
+      "Ramp Up",
+      "Tail Held High",
+      "Hesitant Front Runners",
+      "Hesitant Pace Chasers"
+    ]
+  },
+  {
+    "character_name": "Symboli Rudolf",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "All I've Got",
+      "Tether",
+      "Subdued Front Runners",
+      "Subdued Pace Chasers",
+      "Subdued Late Surgers",
+      "Subdued End Closers"
+    ]
+  },
+  {
+    "character_name": "Sirius Symboli",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Lone Wolf",
+      "Wet Conditions ○",
+      "Be Still",
+      "Medium Corners ○",
+      "Late Surger Straightaways ○"
+    ]
+  },
+  {
+    "character_name": "Air Shakur",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Standing By",
+      "Levelheaded",
+      "Up-Tempo",
+      "End Closer Corners ○",
+      "Straightaway Spurt"
+    ]
+  },
+  {
+    "character_name": "Daiwa Scarlet",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Competitive Spirit ○",
+      "Preferred Position",
+      "Prepared to Pass",
+      "Pace Chaser Corners ○",
+      "Straight Descent"
+    ]
+  },
+  {
+    "character_name": "Bamboo Memory",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Target in Sight ○",
+      "Homestretch Haste",
+      "Outer Swell",
+      "Gap Closer",
+      "Mile Straightaways ○",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Seeking the Pearl",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Pace Chaser Savvy ○",
+      "Late Surger Savvy ○",
+      "Watchful Eye",
+      "Prepared to Pass",
+      "Slick Surge",
+      "Sprinting Gear",
+      "Head-On",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Kawakami Princess",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Standard Distance ○",
+      "Preferred Position",
+      "Soft Step",
+      "Tactical Tweak"
+    ]
+  },
+  {
+    "character_name": "Mr. C.B.",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Rainy Days ○",
+      "Homestretch Haste",
+      "Medium Corners ○",
+      "Tail Held High",
+      "Corner Acceleration ○",
+      "Straightaway Spurt",
+      "Strategist"
+    ]
+  },
+  {
+    "character_name": "Haru Urara",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": []
+  },
+  {
+    "character_name": "Ikuno Dictus",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Late Surger Savvy ○",
+      "Calm in a Crowd",
+      "Be Still",
+      "Position Pilfer",
+      "Late Surger Corners ○",
+      "Studious",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Rice Shower",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Deep Breaths",
+      "Pace Chaser Corners ○",
+      "Feature Act",
+      "Straight Descent",
+      "Disorient"
+    ]
+  },
+  {
+    "character_name": "Agnes Tachyon",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Up-Tempo",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "Pace Chaser Corners ○",
+      "Attack Stance",
+      "Head-On",
+      "Tether"
+    ]
+  },
+  {
+    "character_name": "El Condor Pasa",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Standard Distance ○",
+      "Pace Chaser Savvy ○",
+      "Preferred Position",
+      "Prepared to Pass",
+      "Pace Chaser Straightaways ○",
+      "Head-On",
+      "Hawkeye"
+    ]
+  },
+  {
+    "character_name": "Matikanetannhauser",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Corner Recovery ○",
+      "Lay Low",
+      "Pace Strategy",
+      "Shake It Out",
+      "Homestretch Haste",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Zenno Rob Roy",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Tokyo Racecourse ○",
+      "Pace Chaser Savvy ○",
+      "Late Surger Savvy ○",
+      "Up-Tempo",
+      "Medium Corners ○",
+      "Tether"
+    ]
+  },
+  {
+    "character_name": "Special Week",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Right-Handed ○",
+      "Winter Runner ○",
+      "Nakayama Racecourse ○",
+      "Non-Standard Distance ○",
+      "Long Straightaways ○",
+      "Pressure"
+    ]
+  },
+  {
+    "character_name": "Air Groove",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Be Still",
+      "Late Surger Straightaways ○",
+      "Fearless",
+      "Hesitant End Closers",
+      "Flustered End Closers",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Maruzensky",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Summer Runner ○",
+      "Triple 7s",
+      "Front Runner Straightaways ○",
+      "Front Runner Corners ○",
+      "Leader's Pride",
+      "Slipstream",
+      "Playtime's Over!",
+      "Early Lead",
+      "Groundwork",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Nakayama Festa",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Summer Runner ○",
+      "Long Shot ○",
+      "Wet Conditions ○",
+      "Lucky Seven",
+      "Triple 7s",
+      "Steadfast",
+      "Late Surger Straightaways ○",
+      "Uma Stan",
+      "All I've Got",
+      "Risky Business",
+      "Nimble Navigator",
+      "Slick Surge"
+    ]
+  },
+  {
+    "character_name": "Sakura Chiyono O",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Summer Runner ○",
+      "Pace Chaser Savvy ○",
+      "Mile Straightaways ○",
+      "Shifting Gears",
+      "Pace Chaser Straightaways ○",
+      "Pace Chaser Corners ○",
+      "Head-On"
+    ]
+  },
+  {
+    "character_name": "Manhattan Cafe",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Deep Breaths",
+      "Passing Pro",
+      "Long Straightaways ○",
+      "Long Corners ○",
+      "Pressure",
+      "Highlander",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Tokai Teio",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Competitive Spirit ○",
+      "Soft Step",
+      "Corner Adept ○",
+      "Pace Chaser Corners ○",
+      "With All My Soul",
+      "Nimble Navigator",
+      "Prudent Positioning",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Twin Turbo",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Competitive Spirit ○",
+      "Target in Sight ○",
+      "Moxie",
+      "Fast-Paced",
+      "Leader's Pride",
+      "Frantic State",
+      "Early Lead"
+    ]
+  },
+  {
+    "character_name": "Biwa Hayahide",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Outer Post Proficiency ○",
+      "Hanshin Racecourse ○",
+      "Wet Conditions ○",
+      "Cloudy Days ○",
+      "Pace Chaser Savvy ○",
+      "Stamina to Spare",
+      "Passing Pro",
+      "Faultless",
+      "Pace Chaser Straightaways ○",
+      "Tail Held High",
+      "Head-On"
+    ]
+  },
+  {
+    "character_name": "Daiichi Ruby",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Lone Wolf",
+      "Gap Closer",
+      "Late Surger Straightaways ○",
+      "Fearless",
+      "Slick Surge",
+      "Hesitant Front Runners",
+      "Tether",
+      "Opening Gambit",
+      "Subdued Front Runners",
+      "Flustered Front Runners",
+      "Stop Right There!"
+    ]
+  },
+  {
+    "character_name": "Mejiro Palmer",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Sympathy",
+      "Front Runner Savvy ○",
+      "Moxie",
+      "Keeping the Lead",
+      "Playtime's Over!",
+      "Early Lead",
+      "Final Push",
+      "Groundwork"
+    ]
+  },
+  {
+    "character_name": "Daitaku Helios",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Fall Runner ○",
+      "Sympathy",
+      "Firm Conditions ○",
+      "Sunny Days ○",
+      "Mile Corners ○",
+      "Shifting Gears",
+      "Slipstream",
+      "Frantic State",
+      "Speed Eater"
+    ]
+  },
+  {
+    "character_name": "Shinko Windy",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Mud Play ○",
+      "Competitive Spirit ○",
+      "Wet Conditions ○",
+      "Prepared to Pass",
+      "At Full Speed",
+      "Dust Bath ○",
+      "Full of Zeal",
+      "Hesitant Front Runners",
+      "Pressing Feeling"
+    ]
+  },
+  {
+    "character_name": "Symboli Kris S",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Corner Recovery ○",
+      "Passing Pro",
+      "Long Straightaways ○",
+      "Late Surger Corners ○",
+      "1,500,000 CC",
+      "Fearless",
+      "Slick Surge",
+      "Devil-May-Care"
+    ]
+  },
+  {
+    "character_name": "Mejiro Ardan",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Left-Handed ○",
+      "Pace Chaser Savvy ○",
+      "Preferred Position",
+      "Soft Step",
+      "Pace Chaser Corners ○"
+    ]
+  },
+  {
+    "character_name": "Yaeno Muteki",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Ramp Up",
+      "Homestretch Haste",
+      "Prepared to Pass",
+      "Up-Tempo",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "Tail Held High"
+    ]
+  },
+  {
+    "character_name": "Mihono Bourbon",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Leader's Pride",
+      "Front Runner Straightaways ○",
+      "Front Runner Corners ○",
+      "Early Lead",
+      "Prudent Positioning",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Eishin Flash",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Standard Distance ○",
+      "Late Surger Savvy ○",
+      "Soft Step",
+      "Late Surger Straightaways ○",
+      "Late Surger Corners ○",
+      "Fighter",
+      "Take the Chance"
+    ]
+  },
+  {
+    "character_name": "Narita Brian",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Right-Handed ○",
+      "Winter Runner ○",
+      "Firm Conditions ○",
+      "Preferred Position",
+      "Faultless",
+      "Outer Swell",
+      "Long Straightaways ○",
+      "Firm Step",
+      "Tooth and Tail",
+      "True Worth"
+    ]
+  },
+  {
+    "character_name": "Air Groove",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Winter Runner ○",
+      "Standard Distance ○",
+      "Late Surger Savvy ○",
+      "Be Still",
+      "Position Pilfer",
+      "Late Surger Straightaways ○",
+      "Fearless",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Sakura Laurel",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Spring Runner ○",
+      "Winter Runner ○",
+      "Sunny Days ○",
+      "Deep Breaths",
+      "A Small Breather",
+      "Free-Spirited",
+      "Long Corners ○",
+      "Devil-May-Care",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Yamanin Zephyr",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Fall Runner ○",
+      "Long Shot ○",
+      "Pace Chaser Savvy ○",
+      "Mile Corners ○",
+      "Shifting Gears",
+      "Unyielding Spirit",
+      "Medium Corners ○",
+      "Ambitions",
+      "Corner Acceleration ○"
+    ]
+  },
+  {
+    "character_name": "Special Week",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Left-Handed ○",
+      "Standard Distance ○",
+      "Extra Tank",
+      "Soft Step",
+      "Homestretch Haste",
+      "Up-Tempo",
+      "All I've Got",
+      "Feature Act",
+      "Fighting Spirit",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Sweep Tosho",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "After-School Stroll",
+      "End Closer Straightaways ○",
+      "Slipstream",
+      "Breakthrough Plan",
+      "Witful",
+      "I Can See Right Through You",
+      "Trick (Rear)",
+      "Murmur"
+    ]
+  },
+  {
+    "character_name": "Grass Wonder",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Winter Runner ○",
+      "Cloudy Days ○",
+      "Faultless",
+      "Long Corners ○",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "K.S.Miracle",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Sprint Corners ○",
+      "Pace Chaser Straightaways ○",
+      "Attack Stance",
+      "Updrafters",
+      "Countermeasure"
+    ]
+  },
+  {
+    "character_name": "Marvelous Sunday",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Pace Strategy",
+      "Long Straightaways ○",
+      "Tail Held High",
+      "All I've Got",
+      "Eager",
+      "Take the Chance",
+      "Devil-May-Care",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Biko Pegasus",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Rainy Days ○",
+      "Position Pilfer",
+      "Late Surger Corners ○",
+      "Fearless",
+      "Nimble Navigator",
+      "Sprinting Gear",
+      "Mighty Leap"
+    ]
+  },
+  {
+    "character_name": "Hishi Akebono",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Sunny Days ○",
+      "Hydrate",
+      "Sprint Corners ○",
+      "Final Push",
+      "Countermeasure",
+      "Meticulous Measures"
+    ]
+  },
+  {
+    "character_name": "Mejiro Ramonu",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Straightaway Adept",
+      "Mile Straightaways ○",
+      "Mile Corners ○",
+      "Shifting Gears",
+      "Medium Straightaways ○",
+      "All I've Got",
+      "Firm Step",
+      "Graceful Step",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Katsuragi Ace",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Tokyo Racecourse ○",
+      "Fast-Paced",
+      "Steadfast",
+      "Medium Straightaways ○",
+      "Front Runner Corners ○",
+      "Leader's Pride",
+      "Ambitions",
+      "Firm Step",
+      "Steadfast"
+    ]
+  },
+  {
+    "character_name": "Symboli Kris S",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Medium Corners ○",
+      "Late Surger Corners ○",
+      "1,500,000 CC",
+      "All I've Got",
+      "Fighting Spirit",
+      "Fearless"
+    ]
+  },
+  {},
+  {
+    "character_name": "Nice Nature",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Kokura Racecourse ○",
+      "Lay Low",
+      "Corner Adept ○",
+      "Straightaway Adept",
+      "Homestretch Haste",
+      "Uma Stan",
+      "Slipstream",
+      "Slick Surge"
+    ]
+  },
+  {
+    "character_name": "Mejiro McQueen",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Kyoto Racecourse ○",
+      "Wet Conditions ○",
+      "Corner Recovery ○",
+      "Straightaway Recovery",
+      "Extra Tank",
+      "Stay the Course",
+      "Long Straightaways ○",
+      "Long Corners ○",
+      "Feature Act"
+    ]
+  },
+  {
+    "character_name": "Tokai Teio",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Soft Step",
+      "Firm Step",
+      "Nimble Navigator",
+      "Shrewd Step",
+      "Prudent Positioning",
+      "Go with the Flow",
+      "Thunderbolt Step"
+    ]
+  },
+  {
+    "character_name": "Mihono Bourbon",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Left-Handed ○",
+      "Firm Conditions ○",
+      "Wet Conditions ○",
+      "Fast-Paced",
+      "Early Lead",
+      "Final Push",
+      "Second Wind",
+      "Highlander",
+      "Groundwork"
+    ]
+  },
+  {
+    "character_name": "Sakura Laurel",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Spring Runner ○",
+      "Corner Recovery ○",
+      "Straightaway Recovery",
+      "Free-Spirited",
+      "Great Haste",
+      "Overflowing Passion",
+      "On the Move",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Ikuno Dictus",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Late Surger Savvy ○",
+      "Calm in a Crowd",
+      "Position Pilfer",
+      "Late Surger Straightaways ○",
+      "Sharp Gaze"
+    ]
+  },
+  {
+    "character_name": "Tanino Gimlet",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Eager",
+      "Straightaway Spurt",
+      "Updrafters",
+      "Take the Chance",
+      "Hawkeye"
+    ]
+  },
+  {
+    "character_name": "Oguri Cap",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Cloudy Days ○",
+      "Preferred Position",
+      "Hydrate",
+      "Corner Adept ○",
+      "Up-Tempo",
+      "Pace Chaser Straightaways ○",
+      "Pace Chaser Corners ○",
+      "All I've Got",
+      "Firm Step",
+      "Nimble Navigator",
+      "Straight Descent",
+      "Head-On"
+    ]
+  },
+  {
+    "character_name": "Jungle Pocket",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Corner Adept ○",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "Rising Passion",
+      "Slick Surge",
+      "Take the Chance",
+      "Witful"
+    ]
+  },
+  {
+    "character_name": "Daiwa Scarlet",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Front Runner Savvy ○",
+      "Rosy Outlook",
+      "Up-Tempo",
+      "Steadfast",
+      "Medium Straightaways ○",
+      "Leader's Pride",
+      "With All My Soul",
+      "Steadfast",
+      "Dodging Danger",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Aston Machan",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Front Runner Savvy ○",
+      "Sprint Straightaways ○",
+      "Sprint Corners ○",
+      "Early Lead",
+      "Sprinting Gear",
+      "Meticulous Measures",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Vodka",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Tokyo Racecourse ○",
+      "Straightaway Recovery",
+      "Position Pilfer",
+      "Full Throttle",
+      "Acceleration",
+      "Take the Chance"
+    ]
+  },
+  {
+    "character_name": "Mayano Top Gun",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Preferred Position",
+      "Soft Step",
+      "Ramp Up",
+      "Pace Chaser Straightaways ○",
+      "Firm Step",
+      "Nimble Navigator",
+      "Head-On"
+    ]
+  },
+  {
+    "character_name": "TM Opera O",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Nakayama Racecourse ○",
+      "Straightaway Recovery",
+      "Straightaway Adept",
+      "Inside Scoop",
+      "Long Straightaways ○",
+      "Long Corners ○",
+      "Feature Act",
+      "Lock On",
+      "True Worth"
+    ]
+  },
+  {
+    "character_name": "Gold City",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Mile Corners ○",
+      "Unyielding Spirit",
+      "Tail Held High",
+      "Rushing in Blind",
+      "Mighty Leap",
+      "High Hopes",
+      "Opening Gambit"
+    ]
+  },
+  {
+    "character_name": "Mejiro Palmer",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Deep Breaths",
+      "Moxie",
+      "Corner Adept ○",
+      "Long Straightaways ○",
+      "Long Corners ○",
+      "Front Runner Straightaways ○",
+      "Playtime's Over!",
+      "Frantic State",
+      "Up the Vibes",
+      "Groundwork"
+    ]
+  },
+  {
+    "character_name": "Daitaku Helios",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Summer Runner ○",
+      "Firm Conditions ○",
+      "Sunny Days ○",
+      "Sprint Corners ○",
+      "Mile Corners ○",
+      "Slipstream",
+      "Light as a Feather",
+      "Disorient"
+    ]
+  },
+  {
+    "character_name": "Wonder Acute",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Mud Play ○",
+      "Funabashi Racetrack ○",
+      "Nocturnal ○",
+      "Unyielding Spirit",
+      "Top Pick",
+      "At Full Speed",
+      "Dust Bath ○",
+      "Forward, March!",
+      "Pressing Feeling"
+    ]
+  },
+  {
+    "character_name": "Manhattan Cafe",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Deep Breaths",
+      "Free-Spirited",
+      "Long Straightaways ○",
+      "Mold Breaker",
+      "Lock On",
+      "Great Haste",
+      "Devil-May-Care"
+    ]
+  },
+  {
+    "character_name": "Jungle Pocket",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Late Surger Savvy ○",
+      "Position Pilfer",
+      "Medium Straightaways ○",
+      "Late Surger Corners ○",
+      "1,500,000 CC",
+      "Overflowing Passion",
+      "On the Move",
+      "Slick Surge",
+      "Take the Chance"
+    ]
+  },
+  {
+    "character_name": "Air Groove",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Stamina to Spare",
+      "Pace Chaser Corners ○",
+      "Attack Stance",
+      "Straight Descent",
+      "Head-On",
+      "Disorient"
+    ]
+  },
+  {},
+  {
+    "character_name": "El Condor Pasa",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Corner Recovery ○",
+      "Corner Adept ○",
+      "Medium Corners ○",
+      "Pace Chaser Corners ○",
+      "With All My Soul",
+      "Downhill Speedster",
+      "Attack Stance",
+      "Satisfying Pace"
+    ]
+  },
+  {
+    "character_name": "Admire Vega",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Standing By",
+      "Masterful Gambit",
+      "End Closer Corners ○",
+      "Early Start",
+      "Strategist"
+    ]
+  },
+  {
+    "character_name": "Nakayama Festa",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Lone Wolf",
+      "Gambling Spirit",
+      "Self-Assured",
+      "Longchamp Racecourse ○",
+      "Ramp Up",
+      "Homestretch Haste"
+    ]
+  },
+  {
+    "character_name": "Hishi Amazon",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Standing By",
+      "Corner Adept ○",
+      "Homestretch Haste",
+      "Masterful Gambit",
+      "End Closer Straightaways ○",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Tanino Gimlet",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Tokyo Racecourse ○",
+      "Straightaway Adept",
+      "Steadfast",
+      "Medium Straightaways ○",
+      "End Closer Straightaways ○",
+      "Eager",
+      "Nimble Navigator",
+      "Straightaway Spurt"
+    ]
+  },
+  {
+    "character_name": "Tap Dance City",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Inner Post Proficiency ○",
+      "Fast-Paced",
+      "Front Runner Corners ○",
+      "Early Lead",
+      "Final Push"
+    ]
+  },
+  {
+    "character_name": "Fine Motion",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Right-Handed ○",
+      "Stamina to Spare",
+      "Productive Plan",
+      "Up-Tempo",
+      "Attack Stance",
+      "Prudent Positioning"
+    ]
+  },
+  {
+    "character_name": "Gold Ship",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Right-Handed ○",
+      "End Closer Savvy ○",
+      "Standing By",
+      "Ramp Up",
+      "Homestretch Haste",
+      "End Closer Straightaways ○",
+      "End Closer Corners ○",
+      "Uma Stan",
+      "Straightaway Spurt"
+    ]
+  },
+  {
+    "character_name": "Tsurumaru Tsuyoshi",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Homestretch Haste",
+      "Prepared to Pass",
+      "Steadfast",
+      "Medium Straightaways ○",
+      "Attack Stance",
+      "Tooth and Tail"
+    ]
+  },
+  {
+    "character_name": "King Halo",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Outer Swell",
+      "Sprint Straightaways ○",
+      "Fearless",
+      "Pressure",
+      "Single-Minded Advance",
+      "Sprinting Gear",
+      "Meticulous Measures"
+    ]
+  },
+  {
+    "character_name": "Haru Urara",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": []
+  },
+  {
+    "character_name": "Mejiro McQueen",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Hydrate",
+      "Prepared to Pass",
+      "Pace Chaser Straightaways ○",
+      "Tail Held High",
+      "Attack Stance",
+      "Toward Victory",
+      "Head-On",
+      "Honing In"
+    ]
+  },
+  {
+    "character_name": "Sounds of Earth",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Straightaway Recovery",
+      "Homestretch Haste",
+      "Slipstream",
+      "Playtime's Over!",
+      "Middle Leg Adept",
+      "Opening Leg Adept",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Mejiro Dober",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Ramp Up",
+      "Outer Swell",
+      "Mile Corners ○",
+      "Pumped",
+      "Overflowing Passion",
+      "Updrafters",
+      "Mighty Leap"
+    ]
+  },
+  {
+    "character_name": "Mejiro Ramonu",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Right-Handed ○",
+      "Up-Tempo",
+      "Medium Straightaways ○",
+      "Playtime's Over!",
+      "All I've Got",
+      "Firm Step",
+      "Graceful Step",
+      "Refined Conduct",
+      "Highlander",
+      "Take the Chance",
+      "Satisfying Pace"
+    ]
+  },
+  {
+    "character_name": "Mejiro Ryan",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Winter Runner ○",
+      "Non-Standard Distance ○",
+      "Pressure",
+      "Late Surger Straightaways ○",
+      "Fighting Spirit",
+      "Fighter"
+    ]
+  },
+  {
+    "character_name": "Vivlos",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Self-Assured",
+      "Be Still",
+      "Position Pilfer",
+      "Medium Straightaways ○",
+      "1,500,000 CC",
+      "Eager",
+      "Slick Surge"
+    ]
+  },
+  {
+    "character_name": "Duramente",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Straightaway Recovery",
+      "Medium Straightaways ○",
+      "End Closer Straightaways ○",
+      "Slipstream",
+      "Rapid",
+      "Rising Passion",
+      "Unbreakable Mind"
+    ]
+  },
+  {
+    "character_name": "Satono Diamond",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Fighting Spirit",
+      "Late Surger Corners ○",
+      "Full Throttle",
+      "Overflowing Passion",
+      "On the Move",
+      "Corner Acceleration ○",
+      "Slick Surge",
+      "Prudent Positioning"
+    ]
+  },
+  {},
+  {
+    "character_name": "Twin Turbo",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Self-Assured",
+      "Competitive Spirit ○",
+      "Moxie",
+      "Ramp Up",
+      "Steadfast",
+      "Keeping the Lead",
+      "Risky Business",
+      "Frantic State",
+      "Early Lead",
+      "Final Push"
+    ]
+  },
+  {
+    "character_name": "Hokko Tarumae",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Dust Off",
+      "Promising Omen",
+      "At Full Speed",
+      "Backup Planning",
+      "Full of Zeal",
+      "Forward, March!"
+    ]
+  },
+  {
+    "character_name": "Winning Ticket",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Left-Handed ○",
+      "Position Pilfer",
+      "Overflowing Passion",
+      "On the Move",
+      "Nimble Navigator",
+      "Slick Surge"
+    ]
+  },
+  {
+    "character_name": "Sakura Bakushin O",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Sprint Corners ○",
+      "Light as a Feather",
+      "Single-Minded Advance",
+      "Opening Leg Adept",
+      "Countermeasure",
+      "Groundwork",
+      "Swift Takeoff"
+    ]
+  },
+  {
+    "character_name": "North Flight",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Standard Distance ○",
+      "Prepared to Pass",
+      "Productive Plan",
+      "Mile Corners ○",
+      "Updrafters",
+      "Acceleration",
+      "Go with the Flow",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Gentildonna",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Stamina to Spare",
+      "Straightaway Adept",
+      "Homestretch Haste",
+      "Uma Stan",
+      "Graceful Step",
+      "Fighter"
+    ]
+  },
+  {
+    "character_name": "Orfevre",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Corner Adept ○",
+      "Tail Held High",
+      "Playtime's Over!",
+      "Rapid",
+      "Rising Passion",
+      "Nimble Navigator",
+      "Mighty Step"
+    ]
+  },
+  {},
+  {
+    "character_name": "Kitasan Black",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Kyoto Racecourse ○",
+      "Front Runner Savvy ○",
+      "Extra Tank",
+      "Moxie",
+      "Up-Tempo",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Duramente",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Pace Strategy",
+      "Homestretch Haste",
+      "Medium Straightaways ○",
+      "Eager"
+    ]
+  },
+  {
+    "character_name": "Sounds of Earth",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Sympathy",
+      "Ramp Up",
+      "Homestretch Haste",
+      "Up-Tempo",
+      "Middle Leg Adept",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Vivlos",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Self-Assured",
+      "Watchful Eye",
+      "Outer Swell",
+      "Unyielding Spirit",
+      "Fighter",
+      "Murmur"
+    ]
+  },
+  {
+    "character_name": "Cheval Grand",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Stamina to Spare",
+      "Prepared to Pass",
+      "Inside Scoop",
+      "Long Straightaways ○",
+      "Long Corners ○",
+      "Pace Chaser Straightaways ○",
+      "Attack Stance",
+      "True Worth"
+    ]
+  },
+  {
+    "character_name": "Rhein Kraft",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Hanshin Racecourse ○",
+      "Prepared to Pass",
+      "Productive Plan",
+      "Mile Straightaways ○",
+      "Unyielding Spirit",
+      "Acceleration",
+      "Speed Eater"
+    ]
+  },
+  {
+    "character_name": "K.S.Miracle",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Summer Runner ○",
+      "Sprint Straightaways ○",
+      "Downhill Speedster",
+      "Opening Leg Adept",
+      "Sprinting Gear",
+      "Countermeasure",
+      "Swift Takeoff"
+    ]
+  },
+  {
+    "character_name": "Yamanin Zephyr",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Prepared to Pass",
+      "Productive Plan",
+      "Pace Chaser Straightaways ○",
+      "Slipstream",
+      "Rushing in Blind",
+      "Graceful Step",
+      "Head-On"
+    ]
+  },
+  {
+    "character_name": "Bamboo Memory",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Tokyo Racecourse ○",
+      "Masterful Gambit",
+      "Gap Closer",
+      "Unyielding Spirit",
+      "Breakthrough Plan",
+      "Updrafters",
+      "Meticulous Measures"
+    ]
+  },
+  {
+    "character_name": "Neo Universe",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Standard Distance ○",
+      "Restraint",
+      "Medium Corners ○",
+      "Uma Stan",
+      "All I've Got",
+      "Eager",
+      "Mold Breaker",
+      "Ignition"
+    ]
+  },
+  {
+    "character_name": "Hishi Miracle",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Deep Breaths",
+      "A Small Breather",
+      "Lock On",
+      "Great Haste",
+      "On the Move",
+      "Slick Surge",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "No Reason",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Long Shot ○",
+      "Self-Assured",
+      "A Small Breather",
+      "Fighting Spirit",
+      "Tooth and Tail",
+      "Straightaway Acceleration",
+      "Fighter"
+    ]
+  },
+  {
+    "character_name": "Narita Taishin",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "End Closer Straightaways ○",
+      "Breakthrough Plan",
+      "Boiling Blood",
+      "Sufficient Thrust",
+      "No Reluctance",
+      "Shadowstepper",
+      "Straightaway Spurt",
+      "Seize the Chance"
+    ]
+  },
+  {
+    "character_name": "Vodka",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Left-Handed ○",
+      "Self-Assured",
+      "Corner Adept ○",
+      "Outer Swell",
+      "Unyielding Spirit",
+      "Full Throttle",
+      "Mighty Leap"
+    ]
+  },
+  {
+    "character_name": "Jungle Pocket",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Self-Assured",
+      "Tokyo Racecourse ○",
+      "Calm in a Crowd",
+      "Homestretch Haste",
+      "Medium Straightaways ○",
+      "Eager",
+      "Mold Breaker"
+    ]
+  },
+  {
+    "character_name": "Seiun Sky",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Right-Handed ○",
+      "Medium Corners ○",
+      "Front Runner Straightaways ○",
+      "Leader's Pride",
+      "With All My Soul",
+      "Steadfast",
+      "Dodging Danger"
+    ]
+  },
+  {
+    "character_name": "Verxina",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Ramp Up",
+      "Shifting Gears",
+      "Graceful Step",
+      "Corner Acceleration ○",
+      "Second Wind",
+      "Go with the Flow",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Vivlos",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Straightaway Adept",
+      "Mile Straightaways ○",
+      "Uma Stan",
+      "On the Move",
+      "Opening Leg Adept",
+      "Nimble Navigator"
+    ]
+  },
+  {},
+  {
+    "character_name": "Nishino Flower",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Straightaway Adept",
+      "Slipstream",
+      "Opening Leg Adept",
+      "An Honest Step",
+      "Pounding Chest",
+      "Groundwork"
+    ]
+  },
+  {
+    "character_name": "Dantsu Flame",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Stamina to Spare",
+      "Preferred Position",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "Pace Chaser Straightaways ○",
+      "Playtime's Over!",
+      "All I've Got",
+      "Unshakeable Faith",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Smart Falcon",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Front Runner Savvy ○",
+      "Fast-Paced",
+      "Front Runner Straightaways ○",
+      "Front Runner Corners ○",
+      "Leader's Pride",
+      "Steadfast",
+      "Early Lead",
+      "Groundwork",
+      "Prudent Positioning"
+    ]
+  },
+  {
+    "character_name": "Copano Rickey",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Left-Handed ○",
+      "Exchange Races ○",
+      "Skillful Step",
+      "Self-Assured",
+      "Promising Omen",
+      "Dust Bath ○",
+      "Dirt Straights ○",
+      "Dirt Corners ○",
+      "Groundwork"
+    ]
+  },
+  {
+    "character_name": "Wonder Acute",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Exchange Races ○",
+      "Pace Strategy",
+      "Dust Off",
+      "Attack Stance",
+      "Forward, March!"
+    ]
+  },
+  {
+    "character_name": "Tokai Teio",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Nakayama Racecourse ○",
+      "Corner Adept ○",
+      "Up-Tempo",
+      "Tail Held High",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Fine Motion",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Summer Runner ○",
+      "Inquisitive Mind",
+      "Straightaway Recovery",
+      "Medium Corners ○",
+      "Graceful Step",
+      "Leap Premonition",
+      "Unshakeable Faith",
+      "Frontal Breakthrough"
+    ]
+  },
+  {
+    "character_name": "Still in Love",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Corner Adept ○",
+      "Straightaway Adept",
+      "Medium Corners ○",
+      "Tail Held High",
+      "Playtime's Over!",
+      "Refined Conduct",
+      "Boiling Emotions",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Buena Vista",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Self-Assured",
+      "Ramp Up",
+      "Unyielding Spirit",
+      "Pumped",
+      "Corner Acceleration ○",
+      "Straightaway Acceleration",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Cesario",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Standard Distance ○",
+      "Ramp Up",
+      "Homestretch Haste",
+      "All I've Got",
+      "Fighting Spirit",
+      "Tooth and Tail"
+    ]
+  },
+  {
+    "character_name": "Taiki Shuttle",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Productive Plan",
+      "Mile Corners ○",
+      "Unyielding Spirit",
+      "Rushing in Blind",
+      "Wind Vane",
+      "Fearless Advance",
+      "Groundwork",
+      "High Hopes"
+    ]
+  },
+  {
+    "character_name": "Fuji Kiseki",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Pace Chaser Corners ○",
+      "Playtime's Over!",
+      "Attack Stance",
+      "Tooth and Tail",
+      "Leap Premonition",
+      "Pounding Chest",
+      "Head-On"
+    ]
+  },
+  {
+    "character_name": "Symboli Kris S",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Pace Strategy",
+      "Deep Breaths",
+      "Extra Tank",
+      "Ramp Up",
+      "Long Corners ○",
+      "Middle Leg Adept",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Satono Diamond",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Deep Breaths",
+      "Extra Tank",
+      "Passing Pro",
+      "Faultless",
+      "Homestretch Haste",
+      "Inside Scoop",
+      "Tooth and Tail"
+    ]
+  },
+  {
+    "character_name": "Espoir City",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Exchange Races ○",
+      "Skillful Step",
+      "Unyielding Spirit",
+      "Playtime's Over!",
+      "Promising Omen",
+      "Dust Bath ○",
+      "Pioneer",
+      "Dirt Corners ○",
+      "Contradicting Emotions"
+    ]
+  },
+  {
+    "character_name": "Hishi Amazon",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Masterful Gambit",
+      "End Closer Corners ○",
+      "Uma Stan",
+      "Slipstream",
+      "Boiling Blood",
+      "Cleave",
+      "Straightaway Spurt",
+      "Mighty Step"
+    ]
+  },
+  {
+    "character_name": "Narita Brian",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Pace Chaser Straightaways ○",
+      "Pace Chaser Corners ○",
+      "Tooth and Tail",
+      "Aggressive",
+      "Restless Step",
+      "Head-On",
+      "True Worth"
+    ]
+  },
+  {
+    "character_name": "Matikanefukukitaru",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Lucky Seven",
+      "A Small Breather",
+      "Triple 7s",
+      "1,500,000 CC",
+      "Pressure",
+      "From the First Step"
+    ]
+  },
+  {
+    "character_name": "Air Shakur",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Non-Standard Distance ○",
+      "Fuse",
+      "Corner Adept ○",
+      "Homestretch Haste",
+      "Long Corners ○",
+      "Mold Breaker",
+      "Surprise Attack"
+    ]
+  },
+  {
+    "character_name": "Daiwa Scarlet",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Straightaway Adept",
+      "Front Runner Corners ○",
+      "Leader's Pride",
+      "Playtime's Over!",
+      "Opening Leg Adept",
+      "Finale",
+      "Spearhead",
+      "No Hesitation",
+      "Firm Resolve",
+      "Dodging Danger"
+    ]
+  },
+  {
+    "character_name": "Symboli Kris S",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Position Pilfer",
+      "Late Surger Corners ○",
+      "Slipstream",
+      "Razor-Sharp Stride",
+      "Pressure",
+      "Great Haste",
+      "Overflowing Passion",
+      "On the Move"
+    ]
+  },
+  {
+    "character_name": "Agnes Digital",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Mile Straightaways ○",
+      "Mile Corners ○",
+      "Unyielding Spirit",
+      "Slipstream",
+      "Pumped",
+      "Boiling Emotions",
+      "Wind Vane",
+      "Mighty Leap"
+    ]
+  },
+  {
+    "character_name": "Meisho Doto",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Right-Handed ○",
+      "Late Surger Straightaways ○",
+      "1,500,000 CC",
+      "Uma Stan",
+      "Full Throttle",
+      "Tooth and Tail",
+      "Forward Step by Step",
+      "Slick Surge"
+    ]
+  },
+  {
+    "character_name": "TM Opera O",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Corner Recovery ○",
+      "Preferred Position",
+      "Ramp Up",
+      "Pace Chaser Straightaways ○",
+      "Toward Victory",
+      "Shrewd Step"
+    ]
+  },
+  {
+    "character_name": "Blast Onepiece",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Stamina to Spare",
+      "Corner Adept ○",
+      "Pace Chaser Straightaways ○",
+      "Uma Stan",
+      "Attack Stance",
+      "Decisive Blow",
+      "Steady Effort",
+      "Believe in Yourself",
+      "Honing In"
+    ]
+  },
+  {
+    "character_name": "Symboli Rudolf",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Medium Straightaways ○",
+      "Uma Stan",
+      "Tail Held High",
+      "Slipstream",
+      "Downhill Speedster",
+      "Rapid",
+      "Opening Leg Adept",
+      "Dynamic Motion",
+      "Satisfying Pace"
+    ]
+  },
+  {
+    "character_name": "Mejiro Ardan",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Left-Handed ○",
+      "Pace Chaser Corners ○",
+      "Attack Stance",
+      "Graceful Step",
+      "Refined Conduct",
+      "Leap Premonition",
+      "An Honest Step",
+      "Decisive Blow",
+      "Restless Step",
+      "Surpassing Ambitions"
+    ]
+  },
+  {
+    "character_name": "Maruzensky",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Front Runner Savvy ○",
+      "Moxie",
+      "Front Runner Corners ○",
+      "Playtime's Over!",
+      "An Honest Step",
+      "Straightaway Acceleration",
+      "Final Push",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Seeking the Pearl",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Sprint Straightaways ○",
+      "Sprint Corners ○",
+      "Explosive Force",
+      "Pounding Chest",
+      "Sprinting Gear",
+      "Mighty Leap",
+      "Turning Point"
+    ]
+  },
+  {
+    "character_name": "Curren Chan",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Sprint Straightaways ○",
+      "Sprint Corners ○",
+      "Light as a Feather",
+      "Explosive Force",
+      "Sprinting Gear",
+      "Groundwork",
+      "Swift Takeoff",
+      "Flying Sparks",
+      "Focus"
+    ]
+  },
+  {
+    "character_name": "Ikuno Dictus",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Self-Assured",
+      "Mile Straightaways ○",
+      "Mile Corners ○",
+      "Unyielding Spirit",
+      "Rushing in Blind",
+      "Boiling Emotions",
+      "Wind Vane",
+      "Pounding Chest",
+      "Groundwork"
+    ]
+  },
+  {
+    "character_name": "Nice Nature",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Lay Low",
+      "Pace Strategy",
+      "Be Still",
+      "Position Pilfer",
+      "Eager",
+      "Fearless",
+      "Tether",
+      "Trick (Rear)"
+    ]
+  },
+  {
+    "character_name": "Jungle Pocket",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Tokyo Racecourse ○",
+      "Late Surger Savvy ○",
+      "A Small Breather",
+      "Homestretch Haste",
+      "Outer Swell",
+      "Late Surger Straightaways ○",
+      "Fighter",
+      "Go with the Flow"
+    ]
+  },
+  {},
+  {
+    "character_name": "Almond Eye",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Inquisitive Mind",
+      "Corner Adept ○",
+      "Straightaway Adept",
+      "Uma Stan",
+      "Tail Held High",
+      "Leap Premonition",
+      "To Greater Heights",
+      "Dynamic Motion",
+      "Nimble Navigator",
+      "Surpassing Ambitions"
+    ]
+  },
+  {
+    "character_name": "Gran Alegria",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Self-Assured",
+      "Standard Distance ○",
+      "Pumped",
+      "Rapid",
+      "Pounding Chest",
+      "Forward Step by Step",
+      "Updrafters"
+    ]
+  },
+  {
+    "character_name": "Mejiro Bright",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Spring Runner ○",
+      "Be Still",
+      "Fuse",
+      "Long Straightaways ○",
+      "Late Surger Straightaways ○",
+      "Lock On",
+      "Great Haste",
+      "Preliminary Preparation",
+      "Fierce Struggle",
+      "Devil-May-Care",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Vodka",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Left-Handed ○",
+      "Self-Assured",
+      "Medium Corners ○",
+      "Late Surger Straightaways ○",
+      "Late Surger Corners ○",
+      "Razor-Sharp Stride",
+      "Overflowing Passion",
+      "Towards the Light",
+      "Foothold",
+      "Satisfying Pace"
+    ]
+  },
+  {
+    "character_name": "Dream Journey",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Right-Handed ○",
+      "Masterful Gambit",
+      "End Closer Corners ○",
+      "Early Start",
+      "Boiling Blood",
+      "Sufficient Thrust",
+      "No Reluctance",
+      "Shadowstepper",
+      "Capture",
+      "Nimble Navigator"
+    ]
+  },
+  {
+    "character_name": "Symboli Kris S",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Pace Strategy",
+      "Deep Breaths",
+      "Free-Spirited",
+      "Homestretch Haste",
+      "Pressure",
+      "Lock On",
+      "Fervor",
+      "Stamina Eater"
+    ]
+  },
+  {
+    "character_name": "Daring Tact",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Spring Runner ○",
+      "Position Pilfer",
+      "Late Surger Straightaways ○",
+      "1,500,000 CC",
+      "Downhill Speedster",
+      "Razor-Sharp Stride",
+      "Overflowing Passion",
+      "On the Move",
+      "Pushing Through!",
+      "Descent"
+    ]
+  },
+  {
+    "character_name": "Transcend",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Skillful Step",
+      "Playtime's Over!",
+      "Top Pick",
+      "Pioneer",
+      "Dirt Straights ○",
+      "Dirt Corners ○",
+      "Contradicting Emotions",
+      "Sand Stride",
+      "Groundwork",
+      "Forward, March!"
+    ]
+  },
+  {
+    "character_name": "Buena Vista",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Medium Straightaways ○",
+      "End Closer Corners ○",
+      "Eager",
+      "Graceful Step",
+      "Switch Over Pro",
+      "Creeping Footsteps",
+      "Dynamic Motion",
+      "Gateway to Success",
+      "Mighty Step",
+      "Glimpse of Light"
+    ]
+  },
+  {
+    "character_name": "Espoir City",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Mud Play ○",
+      "Self-Assured",
+      "Ramp Up",
+      "Mile Straightaways ○",
+      "At Full Speed",
+      "Dust Bath ○",
+      "Wind Vane",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Silence Suzuka",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Fast-Paced",
+      "Front Runner Straightaways ○",
+      "An Honest Step",
+      "Unprecedented",
+      "Outstanding Step",
+      "Groundwork",
+      "Early Bird",
+      "Pulling Away",
+      "Riding the Tailwind",
+      "Prudent Positioning"
+    ]
+  },
+  {
+    "character_name": "Rhein Kraft",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Productive Plan",
+      "Mile Straightaways ○",
+      "Shifting Gears",
+      "Wind Vane",
+      "An Honest Step",
+      "Overflowing Fighting Spirit",
+      "Groundwork",
+      "Mighty Leap",
+      "High Hopes",
+      "Speed Eater"
+    ]
+  },
+  {
+    "character_name": "Daring Heart",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Self-Assured",
+      "Mile Corners ○",
+      "Unyielding Spirit",
+      "Pace Chaser Straightaways ○",
+      "Rushing in Blind",
+      "Pounding Chest",
+      "Fearless Advance",
+      "Believe in Yourself",
+      "Head-On"
+    ]
+  },
+  {
+    "character_name": "Air Messiah",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Standard Distance ○",
+      "Fuse",
+      "Position Pilfer",
+      "Fighter",
+      "Highlander",
+      "Descent",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Tamamo Cross",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Homestretch Haste",
+      "Tail Held High",
+      "Mold Breaker",
+      "Rapid",
+      "Forward Step by Step",
+      "Peerless",
+      "Trekker",
+      "Nimble Navigator"
+    ]
+  },
+  {},
+  {
+    "character_name": "Mejiro Ryan",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Late Surger Corners ○",
+      "All I've Got",
+      "Eager",
+      "Fearless",
+      "Preliminary Preparation",
+      "Foothold",
+      "Ceaseless Training",
+      "Slick Surge",
+      "Take the Chance",
+      "Descent"
+    ]
+  },
+  {
+    "character_name": "Fusaichi Pandora",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Preferred Position",
+      "Homestretch Haste",
+      "Pace Chaser Corners ○",
+      "Firm Step",
+      "Leap Premonition",
+      "Straight Descent",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Mejiro McQueen",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Pace Chaser Savvy ○",
+      "Extra Tank",
+      "Hydrate",
+      "Long Corners ○",
+      "Attack Stance",
+      "Toward Victory",
+      "Go with the Flow"
+    ]
+  },
+  {
+    "character_name": "Win Variation",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Right-Handed ○",
+      "Summer Runner ○",
+      "Straightaway Recovery",
+      "Stay the Course",
+      "Inside Scoop",
+      "Long Straightaways ○",
+      "Rapid Overtakes",
+      "Fierce Struggle",
+      "Find a Way!",
+      "Enthusiastic",
+      "Unwavering Heart"
+    ]
+  },
+  {
+    "character_name": "Duramente",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Immovable Spirit",
+      "End Closer Straightaways ○",
+      "End Closer Corners ○",
+      "Slipstream",
+      "Breakthrough Plan",
+      "Bare Passion",
+      "High Ambitions",
+      "Chasing the Shadow",
+      "Give Chase",
+      "Straightaway Spurt"
+    ]
+  },
+  {
+    "character_name": "Vivlos",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Self-Assured",
+      "Late Surger Savvy ○",
+      "Unyielding Spirit",
+      "1,500,000 CC",
+      "Downhill Speedster",
+      "From the First Step",
+      "Acceleration"
+    ]
+  },
+  {
+    "character_name": "Stay Gold",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Corner Adept ○",
+      "Uma Stan",
+      "Slipstream",
+      "Graceful Step",
+      "Ignition",
+      "Unbreakable Mind",
+      "Forward Step by Step",
+      "Peerless",
+      "Dream-Fulfilling Challenge",
+      "Intrigued",
+      "Carefree Step",
+      "Groundwork"
+    ]
+  },
+  {
+    "character_name": "Admire Groove",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Fall Runner ○",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "1,500,000 CC",
+      "Fearless",
+      "Dynamic Motion",
+      "Foothold",
+      "Simmering Heat",
+      "Model Student",
+      "Descent",
+      "Aim for the Summit"
+    ]
+  },
+  {
+    "character_name": "Chrono Genesis",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Non-Standard Distance ○",
+      "Calm in a Crowd",
+      "Tooth and Tail",
+      "Unshakeable Faith",
+      "Self-Restraint",
+      "Restless Step"
+    ]
+  },
+  {
+    "character_name": "Calstone Light O",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Fall Runner ○",
+      "Straightaway Adept",
+      "Sprint Straightaways ○",
+      "Playtime's Over!",
+      "An Honest Step",
+      "Pounding Chest",
+      "No Second Thoughts",
+      "No Third Chances",
+      "In No Time",
+      "Sprinting Gear",
+      "Swift Takeoff",
+      "Unyielding Step",
+      "Prudent Positioning"
+    ]
+  },
+  {
+    "character_name": "Durandal",
+    "rarity": "SSR",
+    "type": "Wit",
+    "hint_names": [
+      "Firm Conditions ○",
+      "Straightaway Adept",
+      "End Closer Straightaways ○",
+      "Breakthrough Plan",
+      "No Reluctance",
+      "Bare Passion",
+      "Give Chase",
+      "Mighty Leap",
+      "Heat Up",
+      "Nosedive"
+    ]
+  },
+  {
+    "character_name": "Dantsu Flame",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Hanshin Racecourse ○",
+      "Prepared to Pass",
+      "Full Throttle",
+      "Unbreakable Mind",
+      "Refined Conduct",
+      "To Greater Heights",
+      "Slick Surge"
+    ]
+  },
+  {
+    "character_name": "Daiichi Ruby",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Fall Runner ○",
+      "Sprint Straightaways ○",
+      "Late Surger Corners ○",
+      "Single-Minded Advance",
+      "Pounding Chest",
+      "With Pride",
+      "Prelude",
+      "Slick Surge",
+      "Mighty Leap",
+      "Turning Point",
+      "Meticulous Measures"
+    ]
+  },
+  {
+    "character_name": "Fuji Kiseki",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Straightaway Adept",
+      "Productive Plan",
+      "Mile Corners ○",
+      "Slipstream",
+      "Attack Stance",
+      "Refined Conduct",
+      "Fearless Advance",
+      "Restless Step",
+      "Resolute Stance",
+      "Nimble Navigator",
+      "Head-On",
+      "High Hopes"
+    ]
+  },
+  {
+    "character_name": "Eishin Flash",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Straightaway Adept",
+      "Ramp Up",
+      "Late Surger Straightaways ○",
+      "Late Surger Corners ○",
+      "Playtime's Over!",
+      "Fearless",
+      "Full Throttle",
+      "Overflowing Passion",
+      "From the First Step",
+      "Simmering Heat"
+    ]
+  },
+  {
+    "character_name": "Tosen Jordan",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Tokyo Racecourse ○",
+      "Be Still",
+      "Playtime's Over!",
+      "Overflowing Passion",
+      "Unbreakable Mind",
+      "Towards the Light",
+      "Slick Surge",
+      "Fighter"
+    ]
+  },
+  {
+    "character_name": "Curren Bouquetd'or",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Spring Runner ○",
+      "Corner Recovery ○",
+      "Stamina to Spare",
+      "Attack Stance",
+      "Tooth and Tail",
+      "Leap Premonition",
+      "An Honest Step",
+      "Luminance",
+      "Find a Way!",
+      "Time to Awaken",
+      "True Worth"
+    ]
+  },
+  {
+    "character_name": "Tokai Teio",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Pace Chaser Straightaways ○",
+      "Pace Chaser Corners ○",
+      "Attack Stance",
+      "To Greater Heights",
+      "Restless Step",
+      "Believe in Yourself",
+      "Luminance",
+      "Time to Awaken",
+      "Stubborn",
+      "Head-On",
+      "Surpassing Ambitions",
+      "One Brave Step"
+    ]
+  },
+  {},
+  {
+    "character_name": "Mihono Bourbon",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Standard Distance ○",
+      "Restraint",
+      "Fast-Paced",
+      "Front Runner Straightaways ○",
+      "Front Runner Corners ○",
+      "Leader's Pride",
+      "Spearhead",
+      "Outstanding Step",
+      "Running is Winning!",
+      "Early Lead",
+      "Groundwork",
+      "Prudent Positioning"
+    ]
+  },
+  {
+    "character_name": "Gold Ship",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Winter Runner ○",
+      "Immovable Spirit",
+      "Long Corners ○",
+      "End Closer Straightaways ○",
+      "Uma Stan",
+      "Lock On",
+      "Rapid Overtakes",
+      "Boiling Blood",
+      "Surprise Attack",
+      "Gateway to Success",
+      "Capture",
+      "Give Chase",
+      "Straightaway Spurt"
+    ]
+  },
+  {
+    "character_name": "Fenomeno",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Faultless",
+      "Long Corners ○",
+      "Feature Act",
+      "Rising Passion",
+      "Decisive Blow",
+      "Steady Effort",
+      "Take the Plunge",
+      "Brute Force",
+      "True Worth",
+      "Honing In",
+      "One Brave Step"
+    ]
+  },
+  {
+    "character_name": "Orfevre",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Levelheaded",
+      "Early Start",
+      "Breakthrough Plan",
+      "Rapid",
+      "Rising Passion",
+      "Sufficient Thrust",
+      "Chasing the Shadow",
+      "Seize the Chance"
+    ]
+  },
+  {
+    "character_name": "Inari One",
+    "rarity": "SSR",
+    "type": "Stamina",
+    "hint_names": [
+      "Right-Handed ○",
+      "Be Still",
+      "Long Straightaways ○",
+      "Late Surger Corners ○",
+      "Great Haste",
+      "Rising Passion",
+      "Bare Passion",
+      "Surprise Attack",
+      "Preliminary Preparation",
+      "Unwavering Heart",
+      "Devil-May-Care",
+      "Crucial Stage"
+    ]
+  },
+  {
+    "character_name": "Air Groove",
+    "rarity": "SSR",
+    "type": "Speed",
+    "hint_names": [
+      "Left-Handed ○",
+      "Self-Assured",
+      "Medium Straightaways ○",
+      "Medium Corners ○",
+      "All I've Got",
+      "Fighting Spirit",
+      "Tooth and Tail",
+      "Towards the Light",
+      "Dynamic Motion",
+      "Spare No Effort",
+      "Gorgeous Step",
+      "No Stagnation",
+      "Satisfying Pace"
+    ]
+  },
+  {
+    "character_name": "Fine Motion",
+    "rarity": "SSR",
+    "type": "Power",
+    "hint_names": [
+      "Winter Runner ○",
+      "Inquisitive Mind",
+      "Straightaway Adept",
+      "Downhill Speedster",
+      "Refined Conduct",
+      "Toward Victory",
+      "Leap Premonition",
+      "An Honest Step",
+      "Aggressive",
+      "With a Light in My Heart",
+      "With Feelings Aboard",
+      "Ride the Momentum",
+      "Straight Descent",
+      "Committed Push"
+    ]
+  },
+  {
+    "character_name": "Bubble Gum Fellow",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Competitive Spirit ○",
+      "Pace Chaser Savvy ○",
+      "Attack Stance",
+      "Ambitions",
+      "Tooth and Tail",
+      "Aggressive",
+      "Corner Acceleration ○",
+      "Groundwork"
+    ]
+  },
+  {
+    "character_name": "King Halo",
+    "rarity": "SSR",
+    "type": "Guts",
+    "hint_names": [
+      "Position Pilfer",
+      "Late Surger Straightaways ○",
+      "1,500,000 CC",
+      "On the Move",
+      "Bare Passion",
+      "Preliminary Preparation",
+      "Forward Step by Step",
+      "Intrigued",
+      "大志を抱いて",
+      "Slick Surge",
+      "Mighty Leap",
+      "Footloose"
+    ]
+  }
+]

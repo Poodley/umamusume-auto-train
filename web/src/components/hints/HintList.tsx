@@ -7,6 +7,7 @@ import type { HintChoicesType, HintType } from "@/types/hintType";
 import type { HintData } from "@/types/hintType";
 import MainHintList from "./_c/HintList/Main";
 import SidebarHintList from "./_c/HintList/Sidebar";
+import type { SupportCardType } from "@/types/eventType";
 
 type Props = {
   data: HintData | null;
@@ -17,11 +18,11 @@ type Props = {
 };
 
 export default function HintList({ data, groupedChoices, hintChoicesConfig, addHintList, deleteHintList }: Props) {
-  const [selected, setSelected] = useState<string>("");
+  const [selected, setSelected] = useState<SupportCardType>({id: "",name: "",image_url: "",rarity: "",  type: ""});
 
   console.log(selected);
   console.log(groupedChoices);
-  const hintSelected = selected ? groupedChoices?.filter((val) => selected.toLowerCase().includes(val.character_name.toLowerCase())) : [];
+  const hintSelected = selected ? groupedChoices?.filter((val) => selected.name.toLowerCase().includes(val.character_name.toLowerCase()) && selected.type.toLowerCase() == val.type.toLowerCase() && selected.rarity.toLowerCase() == val.rarity.toLowerCase()) : [];
 
   return (
     <div>
@@ -44,8 +45,8 @@ export default function HintList({ data, groupedChoices, hintChoicesConfig, addH
 
               {selected && (
                 <Badge variant="secondary" className="flex items-center gap-1 text-sm">
-                  Filter: {selected}
-                  <button onClick={() => setSelected("")} className="ml-1 hover:text-destructive">
+                  Filter: {selected.name}
+                  <button onClick={() => setSelected({id: "",name: "",image_url: "",rarity: "",  type: ""})} className="ml-1 hover:text-destructive">
                     <X className="w-3 h-3" />
                   </button>
                 </Badge>

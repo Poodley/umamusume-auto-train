@@ -5,11 +5,12 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Search } from "lucide-react";
 import { useMemo, useState } from "react";
+import type { SupportCardType } from "@/types/eventType";
 
 type Props = {
-  data: Record<string, string>[];
+  data: SupportCardType[];
   button: string;
-  setSelected: React.Dispatch<React.SetStateAction<string>>;
+  setSelected: React.Dispatch<React.SetStateAction<SupportCardType>>;
 };
 
 export default function EventDialog({ data, button, setSelected }: Props) {
@@ -54,7 +55,7 @@ export default function EventDialog({ data, button, setSelected }: Props) {
                   key={val.id}
                   className="cursor-pointer transition-all hover:scale-105 hover:shadow-md"
                   onClick={() => {
-                    setSelected(val.name);
+                    setSelected(val);
                     setOpen(false);
                     setSearch("");
                   }}
