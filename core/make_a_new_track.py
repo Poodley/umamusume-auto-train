@@ -475,54 +475,6 @@ def is_item_match(text: str, item_list: list, threshold: float = 0.8) -> bool:
     if similarity >= threshold:
       return True
   return False
-""" def maybe_buy_from_shop():
-  if not is_enabled():
-    return False
-  if runtime_state["shop_visited_this_turn"]:
-    return False
-
-  shop_priority = get_settings().get("shop_priority", [])
-  if not shop_priority:
-    return False
-  if not _open_shop():
-    return False
-  runtime_state["shop_visited_this_turn"] = True
-
-  pyautogui.moveTo(constants.SCROLLING_SELECTION_MOUSE_POS)
-  best_candidate = None
-  max_pages = max(1, int(get_settings().get("shop_max_pages", 10)))
-  for page_index in range(max_pages):
-    if state.stop_event.is_set():
-      _close_shop()
-      return False
-    if page_index > max_pages - 2:
-      sleep(0.5)
-
-    candidate = _find_best_shop_candidate_on_current_page(shop_priority)
-    if candidate:
-      best_candidate = candidate
-      break
-
-    if page_index < max_pages - 1:
-      _scroll_shop("down")
-
-  if not best_candidate:
-    _close_shop()
-    return False
-
-  info(
-    f"Buying Make A New Track shop item: {best_candidate['resolved_item_name']} "
-    f"(turns left: {best_candidate['turns_left']})"
-  )
-  _click_box(best_candidate["checkbox"])
-  if not _confirm_shop_purchase():
-    warning("Could not find shop confirm button after selecting item checkbox.")
-    _close_shop()
-    return False
-  sleep(0.3)
-  register_purchase(best_candidate["item_name"])
-  _close_shop()
-  return True """
 
 def is_summer_period(year_text):
   return "Jul" in year_text or "Aug" in year_text

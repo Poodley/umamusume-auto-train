@@ -40,9 +40,11 @@ def buy_skill():
   return found
 
 def is_skill_match(text: str, skill_list: list[str], threshold: float = 0.8) -> bool:
+  # Handle common OCR misreadings and variations for skill names
   if text == "Up Ramp":
     text = "Ramp Up"
   for skill in skill_list:
+    # Use Levenshtein distance to allow for minor OCR errors and variations in skill names
     similarity = Levenshtein.ratio(text.lower(), skill.lower())
     if similarity >= threshold:
       return True

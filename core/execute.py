@@ -10,6 +10,16 @@ import core.state as state
 from core.state import stat_state, check_support_card, check_failure, check_turn, check_mood, check_current_year, check_criteria, check_skill_pts, check_energy_level, get_race_type, check_status_effects, check_aptitudes, SUPPORT_FRIEND_LEVELS
 from core.logic import do_something, decide_race_for_goal, remove_hint, reset_hints
 from core.ocr import extract_text
+from core.make_a_new_track import (
+  reset_runtime_state as reset_make_a_new_track_state,
+  on_turn_start as make_a_new_track_on_turn_start,
+  maybe_buy_from_shop,
+  maybe_use_g1_hammer,
+  maybe_use_pre_training_item,
+  maybe_use_condition_item,
+  should_rest_instead_of_train,
+  is_enabled as is_make_a_new_track_enabled,check_shop
+)
 
 
 from utils.log import info, warning, error, debug
@@ -406,6 +416,7 @@ def do_race(prioritize_g1 = False, img = None):
       info("Race not found.")
     return False
 
+  maybe_use_g1_hammer()
   race_prep()
   sleep(0.7)
   after_race()
@@ -444,7 +455,7 @@ def select_event(event_choices_icon = None):
 def race_day(is_ura = False):
   if state.stop_event.is_set():
     return
-  race_day_btn = f"assets/buttons/{"ura_race_btn" if is_ura else "race_day_btn"}.png"
+  race_day_btn = f"assets/buttons/{'ura_race_btn' if is_ura else 'race_day_btn'}.png"
   click(img=race_day_btn, minSearch=get_secs(10), region=constants.SCREEN_BOTTOM_REGION)
 
   click(img="assets/buttons/ok_btn.png")
@@ -634,6 +645,7 @@ PREFERRED_POSITION_SET = False
 def career_lobby():
   # Program start
   reset_hints()
+  reset_make_a_new_track_state()
   info(f"Mode is {state.FARM_MODE}")
   global PREFERRED_POSITION_SET
   PREFERRED_POSITION_SET = False
@@ -690,11 +702,11 @@ def career_lobby():
       click(boxes=match_template(templates["cancel"]))
       continue
 
-
     if "tazuna" not in matches or not matches["tazuna"]:
       #info("Should be in career lobby.")
       print(".", end="")
       continue
+
 
     energy_level, max_energy = check_energy_level()
 
@@ -704,6 +716,7 @@ def career_lobby():
     minimum_mood_junior_year = constants.MOOD_LIST.index(state.MINIMUM_MOOD_JUNIOR_YEAR)
     turn = check_turn()
     year = check_current_year()
+    make_a_new_track_on_turn_start(year, turn)
     criteria = check_criteria()
     year_parts = year.split(" ")
 
@@ -714,7 +727,11 @@ def career_lobby():
     info(f"Criteria: {criteria}")
     info(f"Skill points: {check_skill_pts()}")
     print("\n=======================================================================================\n")
-
+    # Once we're confirmed in the career lobby, check the Make A New Track shop first.
+    if check_shop():
+      continue
+    if maybe_buy_from_shop():
+      continue
     # If calendar is race day, do race
     if turn == "Race Day":
       if state.IS_AUTO_BUY_SKILL and "Junior" not in year:
@@ -757,6 +774,13 @@ def career_lobby():
       if check_infirmary_again and is_btn_active(check_infirmary_again[0]):
         # infirmary always gives 20 energy, it's better to spend energy before going to the infirmary 99% of the time.
         if max(0, (max_energy - energy_level)) >= state.SKIP_INFIRMARY_UNLESS_MISSING_ENERGY:
+          if is_make_a_new_track_enabled():
+            if click(img="assets/buttons/full_stats.png", minSearch=get_secs(1)):
+              sleep(0.2)
+              conditions, total_severity = check_status_effects()
+              click(img="assets/buttons/close_btn.png", minSearch=get_secs(1))
+              if maybe_use_condition_item(conditions):
+                continue
           info(f"Infirmary located: {matches["infirmary"][0]}")
           click(boxes=matches["infirmary"][0], text="Character debuffed, going to infirmary.")
           continue
@@ -813,7 +837,7 @@ def career_lobby():
           click(img="assets/buttons/back_btn.png", minSearch=get_secs(1), text="Proceeding to training.")
           sleep(0.)
 
-    if energy_level < state.SKIP_TRAINING_ENERGY:
+    if energy_level < state.SKIP_TRAINING_ENERGY and not is_make_a_new_track_enabled():
       info(f"Energy level {energy_level} less than {state.SKIP_TRAINING_ENERGY}, resting.")
       do_rest(energy_level)
       sleep(0.2)
@@ -832,8 +856,22 @@ def career_lobby():
     else:
       results_training = check_training_fans(year, current_stats)
 
-
     best_training = do_something(results_training, current_stats)
+    if maybe_use_pre_training_item(year, energy_level, best_training, results_training):
+      sleep(0.2)
+      current_stats = stat_state()
+      if state.FARM_MODE == "hints":
+        results_training = check_training_hints(year, current_stats)
+      else:
+        results_training = check_training_fans(year, current_stats)
+      best_training = do_something(results_training, current_stats)
+
+    if should_rest_instead_of_train(energy_level, results_training):
+      click(img="assets/buttons/back_btn.png", minSearch=get_secs(1))
+      do_rest(energy_level)
+      sleep(0.2)
+      continue
+
     if best_training:
       do_train(best_training)
     else:

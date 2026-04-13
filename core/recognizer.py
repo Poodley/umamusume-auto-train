@@ -17,6 +17,7 @@ else:
 DEFAULT_BBOX = (0, 0, 963, 1080)
 
 def match_template(template_path, region=None, threshold=0.85, use_cache = True, screen = None, abort_condition = False):
+  # returns list of (x, y, w, h) of matched templates where x and y are the top left corner of the matched template on the screen, and w and h are the width and height of the template
   # Get screenshot
   if screen is None:
     if region:
