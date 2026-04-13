@@ -1,0 +1,33 @@
+Add these template assets to enable Make A New Track item automation:
+
+buttons/open_items.png
+buttons/close_items.png
+empowering_megaphone.png
+small_energy.png
+medium_energy.png
+large_energy.png
+super_cupcake.png
+cupcake.png
+kale_juice.png
+fortune_charm.png
+hand_cream.png
+all_cure.png
+gold_race_hammer.png
+silver_race_hammer.png
+stamina_scroll.png
+speed_scroll.png
+power_scroll.png
+guts_scroll.png
+wit_scroll.png
+stamina_manual.png
+speed_manual.png
+power_manual.png
+guts_manual.png
+wit_manual.png
+speed_bracelet.png
+stamina_bracelet.png
+power_bracelet.png
+guts_bracelet.png
+glowstick.png
+
+The new Make A New Track helper will safely skip item actions until the matching image files exist.
