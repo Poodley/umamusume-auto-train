@@ -865,13 +865,13 @@ def career_lobby():
       else:
         results_training = check_training_fans(year, current_stats)
       best_training = do_something(results_training, current_stats)
-
+    # TODO: Add Check if have energy items to use, before resting
     if should_rest_instead_of_train(energy_level, results_training):
       click(img="assets/buttons/back_btn.png", minSearch=get_secs(1))
       do_rest(energy_level)
       sleep(0.2)
       continue
-
+    # TODO: add use for training items here
     if best_training:
       do_train(best_training)
     else:
