@@ -1,5 +1,6 @@
 import pyautogui
 from utils.tools import sleep, get_secs, drag_scroll, click_and_hold
+import time
 from PIL import ImageGrab
 
 pyautogui.useImageNotFoundException(False)
@@ -15,9 +16,6 @@ from core.make_a_new_track import (
   on_turn_start as make_a_new_track_on_turn_start,
   maybe_buy_from_shop,
   maybe_use_g1_hammer,
-  maybe_use_pre_training_item,
-  maybe_use_condition_item,
-  should_rest_instead_of_train,
   is_enabled as is_make_a_new_track_enabled,check_shop
 )
 
@@ -215,7 +213,7 @@ def check_training_hints(year, current_stats):
       results[key] = support_card_results
 
       debug(f"[{key.upper()}] → Total Supports {support_card_results['total_supports']}, Levels:{support_card_results['total_friendship_levels']} , Fail: {failure_chance}%")
-      sleep(0.2)
+      time.sleep(0.2)
 
   # Populate with null data
   for key, icon_path in list(training_types.items())[2:]:
@@ -416,7 +414,7 @@ def do_race(prioritize_g1 = False, img = None):
       info("Race not found.")
     return False
 
-  maybe_use_g1_hammer()
+  # maybe_use_g1_hammer() use g1 hammer TODO:
   race_prep()
   sleep(0.7)
   after_race()
@@ -728,6 +726,7 @@ def career_lobby():
     info(f"Skill points: {check_skill_pts()}")
     print("\n=======================================================================================\n")
     # Once we're confirmed in the career lobby, check the Make A New Track shop first.
+    
     if check_shop():
       continue
     if maybe_buy_from_shop():
@@ -736,7 +735,6 @@ def career_lobby():
     if turn == "Race Day":
       if state.IS_AUTO_BUY_SKILL and "Junior" not in year:
         auto_buy_skill()
-
       if "Finale" in year:
         info("URA!")
         race_day(is_ura=True)
@@ -752,11 +750,14 @@ def career_lobby():
       for race_list in state.RACE_SCHEDULE:
         if state.stop_event.is_set():
           break
+
         if len(race_list):
           if race_list['year'] in year and race_list['date'] in year:
             debug(f"Race now, {race_list['name']}, {race_list['year']} {race_list['date']}")
+            sleep(10)
             if state.IS_AUTO_BUY_SKILL and year_parts[0] != "Junior":
               auto_buy_skill()
+
             if do_race(state.PRIORITIZE_G1_RACE, img=race_list['name']):
               race_done = True
               break
@@ -857,20 +858,8 @@ def career_lobby():
       results_training = check_training_fans(year, current_stats)
 
     best_training = do_something(results_training, current_stats)
-    if maybe_use_pre_training_item(year, energy_level, best_training, results_training):
-      sleep(0.2)
-      current_stats = stat_state()
-      if state.FARM_MODE == "hints":
-        results_training = check_training_hints(year, current_stats)
-      else:
-        results_training = check_training_fans(year, current_stats)
-      best_training = do_something(results_training, current_stats)
+    # TODO: use training item here
     # TODO: Add Check if have energy items to use, before resting
-    if should_rest_instead_of_train(energy_level, results_training):
-      click(img="assets/buttons/back_btn.png", minSearch=get_secs(1))
-      do_rest(energy_level)
-      sleep(0.2)
-      continue
     # TODO: add use for training items here
     if best_training:
       do_train(best_training)

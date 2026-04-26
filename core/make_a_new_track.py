@@ -9,18 +9,19 @@ import utils.constants as constants
 from core.ocr import extract_number, extract_text
 from core.recognizer import match_template, is_btn_active
 from utils.screenshot import enhanced_screenshot
-from utils.log import info, warning
+from utils.log import info, warning, debug
 from utils.tools import drag_scroll, get_secs, sleep
 
 
 ITEM_ASSET_ROOT = os.path.join("assets", "items", "make_a_new_track")
 BUTTON_ASSETS = {
   "shop": os.path.join(ITEM_ASSET_ROOT, "shop.png"),
-  "open_items": os.path.join(ITEM_ASSET_ROOT, "buttons", "open_items.png"),
+  "training_items": os.path.join(ITEM_ASSET_ROOT, "buttons", "training_items.png"),
   "close_items": os.path.join(ITEM_ASSET_ROOT, "buttons", "close_items.png"),
   "shop_checkbox": os.path.join(ITEM_ASSET_ROOT, "check_box.png"),
   "confirm_purchase": os.path.join(ITEM_ASSET_ROOT, "confirm.png"),
   "back": os.path.join("assets", "buttons", "back_btn.png"),
+  "close_exchange":os.path.join(ITEM_ASSET_ROOT, "close_btn.png"),
   "close": os.path.join("assets", "buttons", "close_btn.png"),
 }
 ITEM_ASSETS = {
@@ -112,6 +113,7 @@ def reset_runtime_state():
   runtime_state["used_items"] = []
   runtime_state["used_items_this_turn"] = set()
   runtime_state["shop_visited_this_turn"] = False
+  runtime_state["shop_checked_this_turn"] = False
   runtime_state["summer_turn_counter"] = 0
   runtime_state["last_turn_key"] = None
   runtime_state["missing_assets_logged"] = set()
@@ -145,22 +147,10 @@ def _find_template(path, region=None, threshold=0.9, use_cache=False):
   return match_template(path, region=region, threshold=threshold, use_cache=use_cache)
 
 
-def _offset_box(box, region):
-  left, top = region[0], region[1]
-  x, y, w, h = box
-  return (x + left, y + top, w, h)
-
 
 def _to_pyautogui_region(region):
   left, top, right, bottom = region
   return (left, top, right - left, bottom - top)
-
-
-def _get_shop_list_region():
-  region = get_settings().get("shop_list_region")
-  if isinstance(region, dict) and all(key in region for key in ("left", "top", "right", "bottom")):
-    return (region["left"], region["top"], region["right"], region["bottom"])
-  return (250, 395, 855, 810)
 
 
 def _get_shop_confirm_region():
@@ -212,7 +202,19 @@ def _open_shop():
   sleep(0.3)
   return True
 
-
+def _close_exchange_complete():
+  # After confirming a purchase in the shop, an exchange complete screen appears that requires clicking a confirm button. This attempts to click that confirm button if it exists to speed up the process of buying multiple items from the shop in a row.
+  confirm_asset = BUTTON_ASSETS["close"]
+  if not _asset_exists(confirm_asset):
+    info("Exchange complete confirm asset not found, skipping exchange complete confirmation.")
+    return False
+  button = pyautogui.locateOnScreen(confirm_asset, confidence=0.85, minSearchTime=get_secs(0.7))
+  if not button:
+    info("Exchange complete confirm button not found, skipping.")
+    return False
+  _click_box(button)
+  sleep(0.3)
+  return True
 
 def _close_shop():
   for button_name in ("back", "close"):
@@ -227,41 +229,30 @@ def _close_shop():
     return True
   return False
 
-
-def _get_turns_left_region(box):
-  settings = get_settings()
-  offset = settings.get("shop_turns_left_offset", {
-    "x": 0,
-    "y": -36,
-    "w": 70,
-    "h": 36,
-  })
-  x, y, w, h = box
-  return (
-    x + offset["x"],
-    y + offset["y"],
-    offset["w"],
-    offset["h"],
-  )
+def is_summer_period(year_text):
+  return "Jul" in year_text or "Aug" in year_text
 
 
-def _get_turns_left_for_box(box):
-  try:
-    region = _get_turns_left_region(box)
-    turns_image = enhanced_screenshot(region)
-    turns_left = extract_number(turns_image)
-    if turns_left == -1:
-      return 999
-    return turns_left
-  except Exception:
-    return 999
-
-
+def on_turn_start(year_text, turn):
+  if not is_enabled():
+    return
+  turn_key = f"{year_text}|{turn}"
+  if runtime_state["last_turn_key"] == turn_key:
+    return
+  runtime_state["last_turn_key"] = turn_key
+  runtime_state["used_items_this_turn"] = set()
+  runtime_state["shop_visited_this_turn"] = False
+  runtime_state["shop_checked_this_turn"] = False
+  if is_summer_period(year_text):
+    runtime_state["summer_turn_counter"] += 1
+  else:
+    runtime_state["summer_turn_counter"] = 0
 
 
 def _open_items_menu():
-  open_asset = BUTTON_ASSETS["open_items"]
+  open_asset = BUTTON_ASSETS["training_items"]
   if not _asset_exists(open_asset):
+    debug("Open items menu asset not found, cannot open items menu.")
     return False
   button = pyautogui.locateOnScreen(open_asset, confidence=0.85, minSearchTime=get_secs(0.7))
   if not button:
@@ -271,7 +262,7 @@ def _open_items_menu():
 
 
 def _close_items_menu():
-  close_asset = BUTTON_ASSETS["close_items"]
+  close_asset = BUTTON_ASSETS["close_btn"]
   if not _asset_exists(close_asset):
     return False
   button = pyautogui.locateOnScreen(close_asset, confidence=0.85, minSearchTime=get_secs(0.3))
@@ -290,26 +281,44 @@ def use_grilled_carrots():
 def _use_item(item_name):
   if not _open_items_menu():
     return False
-
-  for resolved_item_name in _resolve_item_names(item_name):
-    item_path = ITEM_ASSETS.get(resolved_item_name)
-    if not item_path:
-      continue
-
-    matches = _find_template(item_path, threshold=0.88)
-    if not matches:
-      continue
-
-    info(f"Using Make A New Track item: {resolved_item_name}")
-    _click_box(matches[0])
-    pyautogui.press("enter")
-    sleep(0.3)
-    runtime_state["used_items"].append(resolved_item_name)
-    runtime_state["used_items_this_turn"].add(item_name)
-    runtime_state["used_items_this_turn"].add(resolved_item_name)
-    _close_items_menu()
-    return True
-
+  for i in range(8):
+    if state.stop_event.is_set():
+      return False
+    if i > 8:
+      sleep(0.5)
+    use_item_icon = match_template("assets\\items\\make_a_new_track\\use_plus_button.png", threshold=0.9, use_cache = False)
+    
+    if use_item_icon:
+      for x, y, w, h in use_item_icon:
+        if item_name == "race_hammer" or item_name == "master cleat hammer":
+          item_name = "artisan cleat hammer"
+        # the box width is 435, and the height is 60,
+        region = (x - 435, y - 60, w + 275, h + 5)
+        screenshot =enhanced_screenshot(region)
+        text = extract_text(screenshot)
+        # Check once for silver hammer 
+        if text and is_item_match(text, [item_name]):
+          button_region = (x, y, w, h)
+          if is_btn_active(button_region):
+            info(f"Using {text}")
+            pyautogui.click(x=x + 5, y=y + 5, duration=0.15)
+            sleep(0.3)
+            _close_items_menu()
+            return True
+          else:
+            info(f"{text} found but cannot use")
+        if item_name == "artisan cleat hammer":
+          item_name = "master cleat hammer"
+        if text and is_item_match(text, [item_name]):
+          button_region = (x, y, w, h)
+          if is_btn_active(button_region):
+            info(f"Using {text}")
+            pyautogui.click(x=x + 5, y=y + 5, duration=0.15)
+            sleep(0.3)
+            _close_items_menu()
+            return True
+          else:
+            info(f"{text} found but cannot use")
   _close_items_menu()
   return False
 
@@ -334,29 +343,14 @@ def _has_item(item_name):
 def current_counts():
   return runtime_state["bought_counts"]
 
-
-def can_buy(item_name):
-  caps = get_settings().get("item_caps", {})
-  cap = caps.get(item_name)
-  if cap is None:
-    return True
-  return runtime_state["bought_counts"].get(item_name, 0) < cap
-
-
-def register_purchase(item_name):
-  if item_name in runtime_state["bought_counts"]:
-    runtime_state["bought_counts"][item_name] += 1
     
 
 def check_shop():
   global buy_list
   # Checks the shop for items and updates the buy_list with the turns left for each item. This is used to determine which item to buy when visiting the shop later in the turn. Buying is handled in maybe_buy_from_shop() which checks the buy_list to see if any items are available to buy and buys them if they are.
-  if not is_enabled():
-    return False
+  
   if runtime_state["shop_checked_this_turn"]:
-    return False
-  shop_priority = get_settings().get("shop_priority", [])
-  if not shop_priority:
+    info("Shop already checked this turn, skipping.")
     return False
   if not _open_shop():
     return False
@@ -389,7 +383,7 @@ def check_shop():
           buy_list.append((text, turns_number))
           info(f"Turns left for {text}: {turns_number}")
 
-    drag_scroll(constants.SHOP_SCROLL_BOTTOM_MOUSE_POS, -450)
+    drag_scroll(constants.SHOP_SCROLL_BOTTOM_MOUSE_POS, -250)
     sleep(0.3)
   pyautogui.moveTo(constants.SCROLLING_SHOP_MOUSE_POS)
   # get rid of duplicates in buy_list just in case
@@ -401,21 +395,16 @@ def check_shop():
   return True
 
 def maybe_buy_from_shop():
-  if not is_enabled():
-    return False
   if runtime_state["shop_visited_this_turn"]:
     return False
-
-  shop_priority = get_settings().get("shop_priority", [])
-  if not shop_priority:
+  if not buy_list:
+    info("Buy list is empty, nothing to buy.")
+    runtime_state["shop_visited_this_turn"] = True
     return False
   if not _open_shop():
     return False
   runtime_state["shop_visited_this_turn"] = True
   info(f"Attempting to buy from shop. Current buy list: {buy_list}")
-  if not buy_list:
-    info("Buy list is empty, nothing to buy.")
-    return False
   pyautogui.moveTo(constants.SCROLLING_SHOP_MOUSE_POS)
   for i in range(5):
     if state.stop_event.is_set():
@@ -423,10 +412,13 @@ def maybe_buy_from_shop():
     if i > 8:
       sleep(0.5)
     buy_item_icon = match_template("assets\\items\\make_a_new_track\\check_box.png", threshold=0.9, use_cache = False)
-
+    
     if buy_item_icon:
+        if not buy_list:
+          break
         target_name, target_turns = buy_list[0]
         found = False
+        scroll_count = 0
         scrolled_up = False
         for x, y, w, h in buy_item_icon:
             region = (x - 420, y - 40, w + 275, h + 5)
@@ -439,31 +431,35 @@ def maybe_buy_from_shop():
             info(f"Checking shop item: {text} with {turns_number} turns left against target {target_name} with {target_turns} turns left")
             if is_item_match(text, [target_name]) and turns_number == target_turns:
                     button_region = (x, y, w, h)
-
+# map item prices if
                     if is_btn_active(button_region):
                         info(f"Buying {text} with {turns_number} turns left")
                         found = True
                         scrolled_up = False
+                        scroll_count = 0
                         pyautogui.click(x=x + 5, y=y + 5, duration=0.15)
                         sleep(0.3)
-
-                        
                         buy_list.pop(0)   # remove safely
                         break
                     else:
                         info(f"{text} found but cannot buy")
         if not found:
                   # Scroll up to find the item if it's not on the first page. This is needed for items that have a lot of turns left and are therefore further down the list.
-                  drag_scroll(constants.SHOP_SCROLL_BOTTOM_MOUSE_POS, 450)
+                  drag_scroll(constants.SHOP_SCROLL_BOTTOM_MOUSE_POS, 350)
                   scrolled_up = True
                   sleep(0.5)
         if scrolled_up:
-          drag_scroll(constants.SHOP_SCROLL_BOTTOM_MOUSE_POS, -450)
+          scroll_count += 1
+          drag_scroll(constants.SHOP_SCROLL_BOTTOM_MOUSE_POS, -150)
           sleep(0.3)
+        if scroll_count == 3:
+          break
+    
   _confirm_shop_purchase()
   # TODO: use the grilled carrots in the exchange confirmation screen
-  # close out of exchange confirmation screen
-  _close_shop()
+  # send a right click to close out of the menu
+  _close_exchange_complete()
+  sleep(0.3)
   # back out of shop
   _close_shop()
   return True
@@ -475,24 +471,6 @@ def is_item_match(text: str, item_list: list, threshold: float = 0.8) -> bool:
     if similarity >= threshold:
       return True
   return False
-
-def is_summer_period(year_text):
-  return "Jul" in year_text or "Aug" in year_text
-
-
-def on_turn_start(year_text, turn):
-  if not is_enabled():
-    return
-  turn_key = f"{year_text}|{turn}"
-  if runtime_state["last_turn_key"] == turn_key:
-    return
-  runtime_state["last_turn_key"] = turn_key
-  runtime_state["used_items_this_turn"] = set()
-  runtime_state["shop_visited_this_turn"] = False
-  if is_summer_period(year_text):
-    runtime_state["summer_turn_counter"] += 1
-  else:
-    runtime_state["summer_turn_counter"] = 0
 
 
 def has_rainbow(training_name, results):
@@ -523,15 +501,16 @@ def maybe_use_bracelet(training_name, results):
   return _use_item(BRACELET_BY_TRAINING[training_name])
 
 
-def maybe_use_g1_hammer():
+def maybe_use_g1_hammer(race_name):
   if not is_enabled():
+    debug("Make A New Track is not enabled, skipping G1 hammer check.")
+    sleep(10)
     return False
-  if "race_hammer" in runtime_state["used_items_this_turn"]:
-    return False
-  g1_matches = _find_template(os.path.join("assets", "ui", "g1_race.png"), threshold=0.88)
-  if not g1_matches:
-    return False
-  if not _has_item("race_hammer"):
+  g1_races = ["Japan Cup","Satsuki Sho", "Arima Kinen", "Tenno Sho Autumn", "Tenno Sho Spring", "Asahi Hai Futurity Stakes","Hopeful Stakes","NHK Mile Cup" ,
+              "Queen Elizabeth II Cup","Takarazuka Kinen", "Tokyo Yushun Japanese Derby", "Sprinters Stakes", "Shuka Sho", "Kikuka Sho", "Oka Sho", "Osaka Hai", "Yasuda Kinen", "Victoria Mile", "Arima Kinen"]
+  if race_name not in g1_races:
+    debug(f"Race {race_name} is not a G1 race.")
+    sleep(10)
     return False
   info("G1 race detected, attempting to use hammer.")
   return _use_item("race_hammer")

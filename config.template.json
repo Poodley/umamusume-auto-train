@@ -26,6 +26,9 @@
   "cancel_consecutive_race": true,
   "position_selection_enabled": false,
   "enable_positions_by_race": false,
+  "make_a_new_track": {
+    "enabled": true
+  },
   "preferred_position": "front",
   "positions_by_race": {
     "sprint": "front",

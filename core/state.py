@@ -19,7 +19,7 @@ stop_event = threading.Event()
 is_bot_running = False
 bot_thread = None
 bot_lock = threading.Lock()
-
+MAKE_A_NEW_TRACK = None
 MINIMUM_MOOD = None
 PRIORITIZE_G1_RACE = None
 IS_AUTO_BUY_SKILL = None
@@ -50,9 +50,10 @@ def reload_config():
   global PRIORITY_EFFECTS_LIST, SKIP_TRAINING_ENERGY, NEVER_REST_ENERGY, SKIP_INFIRMARY_UNLESS_MISSING_ENERGY, PREFERRED_POSITION
   global ENABLE_POSITIONS_BY_RACE, POSITIONS_BY_RACE, POSITION_SELECTION_ENABLED, SLEEP_TIME_MULTIPLIER
   global WINDOW_NAME, RACE_SCHEDULE, CONFIG_NAME, FARM_MODE, USE_OPTIMAL_EVENT_CHOICE, EVENT_CHOICES, USE_CLOCKS, HINT_CHOICES, SUPPORTS
-
+  global MAKE_A_NEW_TRACK
   config = load_config()
 
+  MAKE_A_NEW_TRACK = config["make_a_new_track"]
   PRIORITY_STAT = config["priority_stat"]
   PRIORITY_WEIGHT = config["priority_weight"]
   MINIMUM_MOOD = config["minimum_mood"]
